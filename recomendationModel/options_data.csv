@@ -1,0 +1,148 @@
+﻿id,name,location,price,type
+1,Equity Point Marrakech,Marrakech ,120,hotel
+2,Hostel Riad Marrakech Rouge ,Marrakech ,130,hotel
+3,Savoy Le Grand Hotel,Marrakech ,1750,hotel
+4,Michlifen Resort & Golf,Ifrane,2000,hotel
+5,Es Saadi Marrakech Resort - Palace,Marrakech ,2500,hotel
+6,Riad Kniza,Marrakech ,1500,hotel
+7,Villa des Orangers,Marrakech ,4000,hotel
+8,"Dar Rhizlane, Palais Table d’hôtes",Marrakech ,3500,hotel
+9,Four Seasons Hotel,Casablanca,2500,hotel
+10,Kenzi Tower Hotel,Casablanca,1500,hotel
+11,Sofitel Agadir Thalassa Sea,Agadir,2500,hotel
+12,Allegro Agadir,Agadir,850,hotel
+13,Movenpick Hotel & Casino Malabata,Tangier,1500,hotel
+14,Dar Bensouda,Fes,1200,hotel
+15,Sofitel Rabat Jardin des Roses,Rabat,2150,hotel
+16,Hotel La Tour Hassan Palace,Rabat,2200,hotel
+17,Hotel Kanz Erremal,Merzouga,800,hotel
+18,Kasbah Mohayut,Merzouga,500,hotel
+19,Riad Fes,Fes,2500,hotel
+20,Riad Dar Anika,Fes,1600,hotel
+21,Dar Echchaouen,Chefchaouen,1000,hotel
+22,Casa Perleta,Chefchaouen,800,hotel
+23,Riad Lalla Zoubida,Fes,1000,hotel
+24,Dar Rabha,Fes,500,hotel
+25,Riad Sayeda Al Hora,Fes,1000,hotel
+26,Le Casablanca Hotel,Casablanca,2000,hotel
+27,Casablanca Marriott Hotel,Casablanca,1000,hotel
+28,Sofitel Casablanca Tour Blanche,Casablanca,1500,hotel
+29,Medina Guesthouse,Casablanca,200,hotel
+30,Sofitel Agadir Thalassa Sea,Agadir,1900,hotel
+31,Dunes D'or Ocean Club,Agadir,600,hotel
+32,Amadil Ocean Club,Agadir,700,hotel
+33,Hotel Timoulay,Agadir,700,hotel
+34,Tildi Hotel ,Agadir,400,hotel
+35,Barceló Tanger,Tangier,1300,hotel
+36,Hilton Tangier Al Houara Resort,Tangier,1200,hotel
+37,Rembrandt Hotel,Tangier,400,hotel
+38,Dar Tanja Boutique Hotel,Tangier,700,hotel
+39,Occidental Tanger,Tangier,600,hotel
+40,Erg Chebbi Camp,Merzouga,200,hotel
+41,Kasbah Ksar Merzouga,Merzouga,400,hotel
+42,Desert Sesriem Camp,Merzouga,200,hotel
+43,Sahara Majestic Luxury Camp,Merzouga,1200,hotel
+44,Riad Chebbi,Merzouga,1200,hotel
+45,Razoli Sidi Fateh,Rabat,300,hotel
+46,Razoli Sidi Fateh,Rabat,400,hotel
+47,Hotel Assaada,Rabat,200,hotel
+48,Dar El Kebira,Rabat,1200,hotel
+49,La Tour Hassan Palace,Rabat,1800,hotel
+50,Hotel Molino Garden,Chefchaouen,300,hotel
+51,Dar Swiar,Chefchaouen,350,hotel
+52,Dar Rass El Maa - Maison d'Hotes,Chefchaouen,320,hotel
+53,Resort Hotel El Cortijo Spa,Chefchaouen,900,hotel
+54,Dar Jasmine,Chefchaouen,1600,hotel
+55,La Cour des Lions,Marrakech,400,restaurant
+56,Nomad,Marrakech,250,restaurant
+57,Arancino,Marrakech,400,restaurant
+58,La Table,Marrakech,800,restaurant
+59,Le Jardin,Casablanca,300,restaurant
+60,Hakka House,Casablanca,250,restaurant
+61,Azar,Marrakech,300,restaurant
+62,Le Bistrot du Liban,Casablanca,250,restaurant
+63,Morimoto,Rabat,500,restaurant
+64,Bo & Zin,Marrakech,660,restaurant
+65,Luigi’s,Casablanca,180,restaurant
+66,Pepe Nero,Marrakech,350,restaurant
+67,La Pagode,Tangier,180,restaurant
+68,Koya,Casablanca,300,restaurant
+69,Matsuri,Rabat,400,restaurant
+70,Le Cedre,Fes,250,restaurant
+71,Azar,Marrakech,400,restaurant
+72,Duplex Steakhouse,Fes,250,restaurant
+73,Nur Restaurant,Fes,600,restaurant
+74,Darori Resto,Fes,150,restaurant
+75,Mouda Palace,Fes,300,restaurant
+76,Restaurant Palais Bab Sahra,Fes,150,restaurant
+77,Le Jasmine,Casablanca,500,restaurant
+78,Restaurant El Gousto,Casablanca,600,restaurant
+79,Yummy and Healthy,Casablanca,100,restaurant
+80,Josam Café Restaurant,Casablanca,60,restaurant
+81,Atelier Oriental,Casablanca,700,restaurant
+82,Resto Grill Salaheddine,Casablanca,80,restaurant
+83,Arômes de Paris,Agadir,500,restaurant
+84,Pure Passion Restaurant,Agadir,900,restaurant
+85,Timam Du Chef,Agadir,100,restaurant
+86,Restaurant Rafiq,Agadir,80,restaurant
+87,Roastery Agadir,Agadir,120,restaurant
+88,L'Olivier Restaurant,Tangier,400,restaurant
+89,Restaurant Ahlen,Tangier,300,restaurant
+90,Abou Tayssir,Tangier,200,restaurant
+91,DarHarruch,Tangier,100,restaurant
+92,Cafe Restaurant Les Amis,Merzouga,800,restaurant
+93,Hassi Fast Food,Merzouga,600,restaurant
+94,Restaurant Cafe NORA,Merzouga,50,restaurant
+95,Restaurant Cafe Fatima,Merzouga,60,restaurant
+96,Restaurant Chez Ibrahim,Merzouga,70,restaurant
+97,Le Grill Robuchon,Rabat,1500,restaurant
+98,Golden Fish,Rabat,1000,restaurant
+99,Resturant Sufra,Rabat,20,restaurant
+100,Dar El Medina,Rabat,100,restaurant
+101,Restaurant de la Liberation,Rabat,70,restaurant
+102,La Alhambra Kitchen,Chefchaouen,50,restaurant
+103,Restaurant Palacio Al Andalus,Chefchaouen,250,restaurant
+104,Cafe Restaurant Sofia,Chefchaouen,150,restaurant
+105,Restaurant Twins,Chefchaouen,75,restaurant
+106,Restaurant Beldi Bab Ssour,Chefchaouen,50,restaurant
+107,Visit Jemaa el-Fnaa,Marrakech,0,activity
+108,Explore the Medina,Marrakech,0,activity
+109,Visit the Koutoubia Mosque,Marrakech,0,activity
+110,Bahia Palace and Saadian Tombs,Marrakech,0,activity
+111,"Day Trips to the Atlas Mountains (Trekking, Quad Biking)",Marrakech,500,activity
+112,Hot Air Balloon Rides,Marrakech,1500,activity
+113,Explore the Fes el-Bali Medina,Fes,0,activity
+114,Visit Al Quaraouiyine University,Fes,0,activity
+115,See the Bou Inania Madrasa,Fes,0,activity
+116,Tannery Tour,Fes,500,activity
+117,Meknes and Volubilis (Roman Ruins),Fes,1500,activity
+118,Visit Hassan II Mosque,Casablanca,0,activity
+119,Explore the Old Medina,Casablanca,0,activity
+120,Art Deco Architecture Tour,Casablanca,0,activity
+121,Stroll along the Corniche,Casablanca,0,activity
+122,Visit Rick’s Café,Casablanca,200,activity
+123,Walk Through the Blue Medina,Chefchaouen,0,activity
+124,Visit the Spanish Mosque,Chefchaouen,0,activity
+125,Hike in the Rif Mountains,Chefchaouen,500,activity
+126,Akchour Waterfalls,Chefchaouen,500,activity
+127,Local Handicraft Shopping,Chefchaouen,1000,activity
+128,Relax on the Beach,Agadir,0,activity
+129,Surfing and Water Sports,Agadir,1500,activity
+130,Golfing,Agadir,2000,activity
+131,Visit the Agadir Oufella Ruins,Agadir,500,activity
+132,Explore the Souss-Massa National Park,Agadir,700,activity
+133,Stroll the Medina,Tangier,0,activity
+134,Visit the Kasbah Museum,Tangier,0,activity
+135,Cave of Hercules,Tangier,0,activity
+136,Beaches,Tangier,0,activity
+137,Asilah (Coastal Art Town),Tangier,0,activity
+138,Camel Trekking in the Sahara Desert,Merzouga,1000,activity
+139,Spend a Night in a Desert Camp,Merzouga,1500,activity
+140,Sandboarding,Merzouga,700,activity
+141,4x4 Desert Tours,Merzouga,1000,activity
+142,Visit Khamlia Village (Gnawa Music),Merzouga,0,activity
+143,Visit the Hassan Tower and Mausoleum of Mohammed V,Rabat,0,activity
+144,Explore the Kasbah of the Udayas,Rabat,0,activity
+145,Walk Through the Chellah Necropolis,Rabat,0,activity
+146,Stroll Along the Bouregreg River,Rabat,0,activity
+147,Rabat Zoo,Rabat,200,activity
