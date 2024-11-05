@@ -39,7 +39,7 @@ const Home: React.FC<HomeProps> = ({ trip }) => {
         <h3 className="text-xl font-semibold">Hotel</h3>
         <p>
           <span className="font-medium">{trip.hotel.name}</span> - Total Cost: 
-          <span className="font-bold"> {trip.hotel_total_cost} DH</span>
+          <span className="font-bold"> {trip.hotel.total_cost} DH</span>
         </p>
       </div>
 

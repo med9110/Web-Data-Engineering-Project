@@ -73,27 +73,29 @@ def get_recommendations(age, preference, city, check_in_date, check_out_date, bu
     recommended_restaurants = []
     recommended_activities = []
     
+    # Modify this section to include the total hotel cost
     for _, hotel in hotel_options.iterrows():
         hotel_total_cost = hotel['price'] * nights
         if hotel_total_cost <= budget:
-            recommended_hotel = hotel
+            recommended_hotel = hotel.to_dict()
+            recommended_hotel['total_cost'] = f"{hotel_total_cost:.2f}"  # Format total cost as a string with currency
             budget -= hotel_total_cost
-            break
+            # break
     
     for _, restaurant in restaurant_options.iterrows():
         if restaurant['price'] <= budget:
-            recommended_restaurants.append(restaurant)
+            recommended_restaurants.append(restaurant.to_dict())
             budget -= restaurant['price']
     
     for _, activity in activity_options.iterrows():
         if activity['price'] <= budget:
-            recommended_activities.append(activity)
+            recommended_activities.append(activity.to_dict())
             budget -= activity['price']
     
     return {
-        "hotel": recommended_hotel.to_dict() if recommended_hotel is not None else None,
-        "restaurants": [r.to_dict() for r in recommended_restaurants],
-        "activities": [a.to_dict() for a in recommended_activities]
+        "hotel": recommended_hotel if recommended_hotel is not None else None,
+        "restaurants": recommended_restaurants,
+        "activities": recommended_activities
     }
 
 @app.post("/recommendations/")
