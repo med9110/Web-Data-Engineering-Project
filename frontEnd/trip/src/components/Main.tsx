@@ -4,11 +4,18 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 
 const Main = () => {
-  const [trip, setTrip] = useState([]);
+  const [trip, setTrip] = useState({
+    hotel: null as { name: string; total_cost: number } | null,
+    hotel_total_cost: null as number | null,
+    restaurants: [] as { name: string; price: number }[],
+    activities: [] as { name: string; price: number }[]
+  });
   const [location, setLocation] = useState("");
-  const [checkIn, setCheckIn] = useState(""); // Individual check-in state
-  const [checkOut, setCheckOut] = useState(""); // Individual check-out state
-  const [budget, setBudget] = useState(0); // Combined budget
+  const [checkIn, setCheckIn] = useState("");
+  const [checkOut, setCheckOut] = useState("");
+  const [budget, setBudget] = useState(0);
+  const [age, setAge] = useState(0);
+  const [preference, setPreference] = useState("");
 
   const handleSearch = async () => {
     console.log("Searching with the following parameters:");
@@ -16,42 +23,54 @@ const Main = () => {
     console.log(`Check-in: ${checkIn}`);
     console.log(`Check-out: ${checkOut}`);
     console.log(`Budget: ${budget}`);
+    console.log(`Age: ${age}`);
+    console.log(`Preference: ${preference}`);
 
-    // Call your Spring backend API here
-    const url = 'http://localhost:8080/api/trips'; // Update with your Spring API endpoint
+    const url = "http://127.0.0.1:8000/recommendations/"; // Update with your FastAPI endpoint
     const options = {
-      method: 'POST',
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json'
+        "Content-Type": "application/json"
       },
       body: JSON.stringify({
-        location,
-        checkIn,
-        checkOut,
+        age,
+        preference,
+        city: location,
+        check_in_date: checkIn,
+        check_out_date: checkOut,
         budget
       })
     };
 
     try {
       const response = await fetch(url, options);
+      if (!response.ok) {
+        const errorMessage = await response.text();
+        console.error("Error response:", response.status, errorMessage);
+        alert(`Error: ${response.status} - ${errorMessage}`);
+        return;
+      }
       const result = await response.json();
-      setTrip(result); // Adjust according to your API response structure
+      setTrip(result);
     } catch (error) {
-      console.error(error);
+      console.error("Error fetching recommendations:", error);
+      alert("An error occurred while fetching recommendations.");
     }
   };
 
   return (
     <div>
       <Navbar />
-      <Menubar 
-        setLocation={setLocation} 
-        setCheckIn={setCheckIn} 
-        setCheckOut={setCheckOut} 
-        setBudget={setBudget} 
-        onSearch={handleSearch} // Pass the search handler
+      <Menubar
+        setLocation={setLocation}
+        setCheckIn={setCheckIn}
+        setCheckOut={setCheckOut}
+        setBudget={setBudget}
+        onSearch={handleSearch}
+        setAge={setAge}
+        setPreference={setPreference}
       />
-      {/* <Home trip={trip} /> */}
+      <Home trip={trip} />
     </div>
   );
 };
