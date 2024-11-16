@@ -1,18 +1,10 @@
-import bed from "../assets/bed.png";
-import fork from "../assets/fork.png";
-import house from "../assets/house.png";
-import lock from "../assets/lock.png";
-import todo from "../assets/todo.png";
 import lens from "../assets/lens.png";
-import welcome from "../assets/welcome.jpg";
 
 type searchProp = {
   setLocation: (value: string) => void;
   setCheckIn: (value: string) => void;
   setCheckOut: (value: string) => void;
   setBudget: (value: number) => void;
-  setAge: (value: number) => void;
-  setPreference: (value: string) => void;
   onSearch: () => void;
 };
 
@@ -69,33 +61,6 @@ const Menubar = (props: searchProp) => {
             />
           </div>
 
-          {/* Divider */}
-          <div className="border-l h-8 mx-2"></div>
-
-          {/* Age Input */}
-          <div className="flex items-center mx-2">
-            <span className="text-sm">Age:</span>
-            <input
-              type="number"
-              onChange={(e) => props.setAge(Number(e.target.value))}
-              placeholder="Age"
-              className="ml-2 w-24 outline-none text-sm p-2 rounded-md border border-gray-300"
-            />
-          </div>
-
-          {/* Divider */}
-          <div className="border-l h-8 mx-2"></div>
-
-          {/* Preference Input */}
-          <div className="flex items-center mx-2">
-            <span className="text-sm">Preference:</span>
-            <input
-              onChange={(e) => props.setPreference(e.target.value)}
-              placeholder="Preference"
-              className="ml-2 w-36 outline-none text-sm p-2 rounded-md border border-gray-300"
-            />
-          </div>
-
           {/* Search Button */}
           <button
             onClick={props.onSearch}
@@ -105,10 +70,6 @@ const Menubar = (props: searchProp) => {
           </button>
         </div>
       </div>
-
-      {/* <div className="p-16">
-        <img src={welcome} className="h-screen w-screen rounded-xl" alt="Welcome" />
-      </div> */}
     </>
   );
 };

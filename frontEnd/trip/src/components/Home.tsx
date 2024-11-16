@@ -1,4 +1,5 @@
 import React from "react";
+import lens from "../assets/morocco.jpg"; // Import the image
 
 type Restaurant = {
   name: string;
@@ -24,13 +25,26 @@ type Trip = {
 
 type HomeProps = {
   trip: Trip;
+  isAuthenticated: boolean; // Add authentication prop
 };
 
-const Home: React.FC<HomeProps> = ({ trip }) => {
+const Home: React.FC<HomeProps> = ({ trip, isAuthenticated }) => {
+  // If the user is not authenticated, show the image
+  if (!isAuthenticated) {
+    return (
+      <div className="text-center mt-10">
+        <img src={lens} alt="Morocco" className="mx-auto" /> {/* Show image when not signed in */}
+        <div>Please sign in to view your trip details.</div>
+      </div>
+    );
+  }
+
+  // If trip or hotel data is not available
   if (!trip || trip.hotel === null) {
     return <div className="text-center mt-10">Loading...</div>;
   }
 
+  // If the user is authenticated, show the trip details
   return (
     <div className="max-w-3xl mx-auto p-5">
       <h2 className="text-2xl font-bold mb-4">Your Trip Details</h2>
