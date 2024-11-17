@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Menubar from "./Menubar";
 import Navbar from "./Navbar";
+import Menubar from "./Menubar";
 import Home from "./Home";
 
 const Main = () => {
@@ -14,28 +14,21 @@ const Main = () => {
   const [checkIn, setCheckIn] = useState("");
   const [checkOut, setCheckOut] = useState("");
   const [budget, setBudget] = useState(0);
-  const [isAuthenticated, setIsAuthenticated] = useState(false); // Authentication state
+  const [isAuthenticated, setIsAuthenticated] = useState(true);
 
-  // Handle search
   const handleSearch = async () => {
-    console.log("Searching with the following parameters:");
-    console.log(`Location: ${location}`);
-    console.log(`Check-in: ${checkIn}`);
-    console.log(`Check-out: ${checkOut}`);
-    console.log(`Budget: ${budget}`);
+    console.log("Searching with the following parameters:", {
+      location,
+      checkIn,
+      checkOut,
+      budget,
+    });
 
     const url = "http://127.0.0.1:8000/recommendations/";
     const options = {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        city: location,
-        check_in_date: checkIn,
-        check_out_date: checkOut,
-        budget,
-      }),
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ city: location, check_in_date: checkIn, check_out_date: checkOut, budget }),
     };
 
     try {
@@ -56,15 +49,18 @@ const Main = () => {
 
   return (
     <div>
-      <Navbar setIsAuthenticated={setIsAuthenticated} /> {/* Pass setIsAuthenticated to Navbar */}
+      <Navbar setIsAuthenticated={setIsAuthenticated} isAuthenticated={isAuthenticated} />
       {isAuthenticated ? (
-        <Menubar
-          setLocation={setLocation}
-          setCheckIn={setCheckIn}
-          setCheckOut={setCheckOut}
-          setBudget={setBudget}
-          onSearch={handleSearch}
-        />
+        <>
+          <Menubar
+            setLocation={setLocation}
+            setCheckIn={setCheckIn}
+            setCheckOut={setCheckOut}
+            setBudget={setBudget}
+            onSearch={handleSearch}
+          />
+          <Home trip={trip} isAuthenticated={isAuthenticated} />
+        </>
       ) : (
         <Home trip={trip} isAuthenticated={isAuthenticated} />
       )}
