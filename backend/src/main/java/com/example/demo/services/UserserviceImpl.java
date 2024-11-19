@@ -115,24 +115,21 @@ public class UserserviceImpl implements  Userservice{
     @Override
     @Transactional
     public void createPasswordResetTokenForUser(User user, String token) {
+        // Check for an existing token
         PasswordResetToken existingToken = passwordResetTokenRepository.findByUser(user);
 
         if (existingToken != null) {
-            // Si un token existe pour cet utilisateur
-            if (existingToken.isExpired()) {
-                // Si le token existant n'est pas expiré, mettre à jour le token existant
-                existingToken.setExpiryDate(PasswordResetToken.calculateExpiryDate(PasswordResetToken.EXPIRATION));
-                existingToken.updateToken(token);
-                passwordResetTokenRepository.save(existingToken);
-                return; // Sortir de la méthode après la mise à jour
-            } else {
-                // Si le token existant est expiré, supprimer le token existant
-                passwordResetTokenRepository.delete(existingToken);
-            }
+            // Delete the existing token, regardless of its expiry status
+            passwordResetTokenRepository.delete(existingToken);
         }
 
-
+        // Create a new token for the user
+        PasswordResetToken newToken = new PasswordResetToken(token, user);
+        passwordResetTokenRepository.save(newToken);
     }
+
+
+
     @Override
     public User findUserByEmail(final String email) {
         return userRepository.findByMail(email);
