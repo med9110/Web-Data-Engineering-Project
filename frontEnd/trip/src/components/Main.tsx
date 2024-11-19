@@ -14,7 +14,7 @@ const Main = () => {
   const [checkIn, setCheckIn] = useState("");
   const [checkOut, setCheckOut] = useState("");
   const [budget, setBudget] = useState(0);
-  const [isAuthenticated, setIsAuthenticated] = useState(true);
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   const handleSearch = async () => {
     console.log("Searching with the following parameters:", {

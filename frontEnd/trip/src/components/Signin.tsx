@@ -1,53 +1,69 @@
-import { useState } from "react";
+import React, { useState } from "react";
+import { jwtDecode } from "jwt-decode"; // Named import
 import logo from "../assets/logo.png";
 
 type signinProp = {
   setSigninPopup: React.Dispatch<React.SetStateAction<boolean>>;
-  setIsAuthenticated: React.Dispatch<React.SetStateAction<boolean>>; 
+  setIsAuthenticated: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 const Signin = (props: signinProp) => {
   const [emailInput, setEmailInput] = useState("");
   const [passwordInput, setPasswordInput] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false); // To handle loading state
+
+  type DecodedToken = {
+    claims: {
+      id: string;
+    };
+  };
 
   const handleSignin = async () => {
     if (!emailInput || !passwordInput) {
-      console.error("Email and password are required");
+      setErrorMessage("Email and password are required");
       return;
     }
 
-    const url = "http://127.0.0.1:8000/login/"; // Your backend login endpoint
-    const options = {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        email: emailInput,
-        password: passwordInput,
-      }),
-    };
+    setIsSubmitting(true); // Disable button during request
 
     try {
-      const response = await fetch(url, options);
+      const response = await fetch("http://127.0.0.1:8080/auth/login/users", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          username: emailInput, // Backend expects "username" for email
+          password: passwordInput,
+        }),
+      });
+
       if (!response.ok) {
-        const errorMessage = await response.text();
-        console.error("Error response:", response.status, errorMessage);
-        alert("Failed to log in. Please check your credentials.");
+        setErrorMessage("Invalid email or password. Please try again.");
         return;
       }
 
-      const result = await response.json();
-      if (result.success) {
-        props.setIsAuthenticated(true); // Set user as authenticated
-        localStorage.setItem("authToken", result.token); // Store JWT token for future requests
+      const data = await response.json();
+      const token = data["access token"];
+      if (token) {
+        localStorage.setItem("authToken", token);
+
+        // Decode JWT token (if needed)
+        const decoded: DecodedToken = jwtDecode(token);
+        console.log("Decoded Token:", decoded);
+
+        // Update the authentication state
+        props.setIsAuthenticated(true);
         props.setSigninPopup(false); // Close the sign-in popup
       } else {
-        alert("Login failed. Please try again.");
+        setErrorMessage("Token not found in response.");
       }
     } catch (error) {
       console.error("Error logging in:", error);
-      alert("An error occurred while logging in.");
+      setErrorMessage("An error occurred. Please try again.");
+    } finally {
+      setIsSubmitting(false); // Re-enable button
     }
   };
 
@@ -61,16 +77,19 @@ const Signin = (props: signinProp) => {
             <div className="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
               <div className="sm:items-start p-4">
                 <div className="flex">
-                  <img src={logo} className="w-10 h-10 bg-green-400 rounded-full" />
+                  <img src={logo} className="w-10 h-10 bg-green-400 rounded-full" alt="Logo" />
                   <h1
                     onClick={() => props?.setSigninPopup(false)}
-                    className="font-extrabold ml-96 cursor-pointer"
+                    className="font-extrabold ml-auto cursor-pointer"
                   >
                     X
                   </h1>
                 </div>
-                <h1 className="font-semibold text-3xl mt-5">Sign in to unlock the<br /> best of TripRecommender.</h1>
-
+                <h1 className="font-semibold text-3xl mt-5">
+                  Sign in to unlock the
+                  <br /> best of TripRecommender.
+                </h1>
+                {errorMessage && <p className="text-red-500 mt-2">{errorMessage}</p>}
                 <div className="mt-3">
                   <input
                     type="email"
@@ -88,12 +107,12 @@ const Signin = (props: signinProp) => {
                   />
                   <button
                     onClick={handleSignin}
+                    disabled={isSubmitting}
                     className="w-full mt-4 bg-black text-white rounded-full py-3"
                   >
-                    Sign In
+                    {isSubmitting ? "Signing In..." : "Sign In"}
                   </button>
                 </div>
-
                 <h1 className="text-center mt-36">
                   By proceeding, you agree to our Terms of Use and confirm you have read our Privacy and Cookie Statement.
                 </h1>
