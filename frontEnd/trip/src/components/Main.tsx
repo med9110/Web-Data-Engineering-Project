@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import Menubar from "./Menubar";
 import Home from "./Home";
@@ -15,6 +15,13 @@ const Main = () => {
   const [checkOut, setCheckOut] = useState("");
   const [budget, setBudget] = useState(0);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+  useEffect(() => {
+    const token = localStorage.getItem("authToken");
+    if (token) {
+      setIsAuthenticated(true);
+    }
+  }, []);
 
   const handleSearch = async () => {
     console.log("Searching with the following parameters:", {

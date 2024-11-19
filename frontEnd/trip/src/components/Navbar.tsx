@@ -18,7 +18,7 @@ const Navbar = ({ setIsAuthenticated, isAuthenticated }: { setIsAuthenticated: R
   };
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col relative z-50">
       <div className="flex justify-between items-center px-6 py-4 bg-white text-black shadow-md">
         {/* Logo and Title */}
         <div className="flex items-center space-x-2">
@@ -68,7 +68,7 @@ const Navbar = ({ setIsAuthenticated, isAuthenticated }: { setIsAuthenticated: R
                 onClick={() => setDropdownOpen(!dropdownOpen)}
               />
               {dropdownOpen && (
-                <div className="absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-lg">
+                <div className="absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-lg z-50">
                   <Link 
                     to="/Acount-Info"
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-100 transition duration-300"
