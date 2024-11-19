@@ -17,7 +17,7 @@ import java.util.UUID;
 
 @Service
 @Transactional
-public class UserserviceImpl implements  Userservice{
+public class UserserviceImpl implements Userservice {
 
     @Autowired
     private UserRepository userRepository;
@@ -25,22 +25,23 @@ public class UserserviceImpl implements  Userservice{
     @Autowired
     private VerificationTokenRepository verificationTokenRepository;
 
-
     @Autowired
     PasswordResetTokenRepository passwordResetTokenRepository;
-    private  PasswordEncoder passwordEncoder;
 
-    public UserserviceImpl( ) {
+    private PasswordEncoder passwordEncoder;
+
+    public UserserviceImpl() {
     }
 
     @Autowired
     public void setPasswordEncoder(PasswordEncoder passwordEncoder) {
         this.passwordEncoder = passwordEncoder;
     }
+
     @Override
     public User savedUser(User user) {
-        if (user == null){
-            throw new IllegalArgumentException(" user must not be null");
+        if (user == null) {
+            throw new IllegalArgumentException("User must not be null");
         }
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         VerificationToken verificationToken = new VerificationToken();
@@ -50,18 +51,13 @@ public class UserserviceImpl implements  Userservice{
 
         verificationTokenRepository.save(verificationToken);
 
-
-
-        User saveduser = userRepository.save(user);
-        return saveduser;
+        return userRepository.save(user);
     }
 
     @Override
     public User updateUser(Long id, UserDto userDto) {
-
         User existingUser = userRepository.getById(id);
         if (userDto != null) {
-
             if (userDto.getFirstname() != null) {
                 existingUser.setFirstname(userDto.getFirstname());
             }
@@ -73,14 +69,8 @@ public class UserserviceImpl implements  Userservice{
             if (userDto.getRole() != null) {
                 existingUser.setRole(userDto.getRole());
             }
-
-    }
-
-        User updatedUser = userRepository.save(existingUser);
-
-
-
-        return updatedUser;
+        }
+        return userRepository.save(existingUser);
     }
 
     @Override
@@ -88,47 +78,35 @@ public class UserserviceImpl implements  Userservice{
         try {
             User user = userRepository.getById(id);
             userRepository.delete(user);
-
-        }catch (Exception e){
+        } catch (Exception e) {
             throw new IllegalArgumentException("User not found");
         }
-
     }
 
     @Override
     public User getUser(Long id) {
-            User user = userRepository.findById(id).orElse(null);
-            return user;
-
+        return userRepository.findById(id).orElse(null);
     }
 
     @Override
     public List<User> getAllUser() {
-
-        List<User> users = userRepository.findAll();
-        return users;
+        return userRepository.findAll();
     }
-
-
-
 
     @Override
     @Transactional
     public void createPasswordResetTokenForUser(User user, String token) {
-        // Check for an existing token
         PasswordResetToken existingToken = passwordResetTokenRepository.findByUser(user);
 
         if (existingToken != null) {
-            // Delete the existing token, regardless of its expiry status
-            passwordResetTokenRepository.delete(existingToken);
+            existingToken.setToken(token); // Update the existing token
+            existingToken.setExpiryDate(PasswordResetToken.calculateExpiryDate(PasswordResetToken.EXPIRATION)); // Reset expiry date
+            passwordResetTokenRepository.save(existingToken);
+        } else {
+            PasswordResetToken newToken = new PasswordResetToken(token, user);
+            passwordResetTokenRepository.save(newToken);
         }
-
-        // Create a new token for the user
-        PasswordResetToken newToken = new PasswordResetToken(token, user);
-        passwordResetTokenRepository.save(newToken);
     }
-
-
 
     @Override
     public User findUserByEmail(final String email) {
@@ -136,29 +114,27 @@ public class UserserviceImpl implements  Userservice{
     }
 
     @Override
-    public boolean checkIfValidOldPassword(final User user, final String oldpassword){
-        return passwordEncoder.matches(oldpassword, user.getPassword());
+    public boolean checkIfValidOldPassword(final User user, final String oldPassword) {
+        return passwordEncoder.matches(oldPassword, user.getPassword());
     }
 
     @Override
-    public void changeUserPassword(final User user, final String newPassword){
+    public void changeUserPassword(final User user, final String newPassword) {
         user.setPassword(passwordEncoder.encode(newPassword));
         userRepository.save(user);
     }
 
     @Override
-    public User getUserByPasswordResetToken(String token){
-       PasswordResetToken passwordResetToken = passwordResetTokenRepository.findByToken(token);
+    public User getUserByPasswordResetToken(String token) {
+        PasswordResetToken passwordResetToken = passwordResetTokenRepository.findByToken(token);
 
-       if(passwordResetToken == null){
-throw new IllegalArgumentException("the user is not found");
-       }
+        if (passwordResetToken == null) {
+            throw new IllegalArgumentException("The user is not found");
+        }
 
-       User user= passwordResetToken.getUser();
-
-       return user;
-
+        return passwordResetToken.getUser();
     }
+
 
 
 }
