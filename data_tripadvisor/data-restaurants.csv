@@ -1,0 +1,451 @@
+"id","name","link","menu_link","rating","reviews","price"
+1,"Le Grill Robuchon","https://www.tripadvisor.com/Restaurant_Review-g293736-d24137398-Reviews-Le_Grill_Robuchon-Rabat_Rabat_Sale_Kenitra.html","https://www.morecravings.com/fr/menus/2581","5",105,"$$$$"
+2,"Dar Zaki","https://www.tripadvisor.com/Restaurant_Review-g293736-d7312105-Reviews-Dar_Zaki-Rabat_Rabat_Sale_Kenitra.html","http://darzaki.com/menu/","4.5",497,"$$ - $$$"
+3,"Resturant Sufra","https://www.tripadvisor.com/Restaurant_Review-g293736-d17822142-Reviews-Resturant_Sufra-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",224,"$"
+4,"Tangerino","https://www.tripadvisor.com/Restaurant_Review-g293736-d27743923-Reviews-Tangerino-Rabat_Rabat_Sale_Kenitra.html","https://tangerino-rabat.com/","5",105,NULL
+5,"Golden Fish","https://www.tripadvisor.com/Restaurant_Review-g293736-d3750728-Reviews-Golden_Fish-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",448,"$$$$"
+6,"Marea","https://www.tripadvisor.com/Restaurant_Review-g293736-d24085497-Reviews-Marea-Rabat_Rabat_Sale_Kenitra.html","https://drive.google.com/open?id=17fcepjg1B7OLGaBANLz_x_gd1QowAzrZ&usp=drive_copy","4.5",114,"$$ - $$$"
+7,"L' Épicurien","https://www.tripadvisor.com/Restaurant_Review-g293736-d17629730-Reviews-L_Epicurien-Rabat_Rabat_Sale_Kenitra.html","https://www.facebook.com/theepicurien","5",80,"$$$$"
+8,"L’Impérial","https://www.tripadvisor.com/Restaurant_Review-g293736-d25572944-Reviews-L_Imperial-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",37,"$$$$"
+9,"Restaurant Dar Naji","https://www.tripadvisor.com/Restaurant_Review-g293736-d14977137-Reviews-Restaurant_Dar_Naji-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",1617,"$$ - $$$"
+10,"Dar El Medina","https://www.tripadvisor.com/Restaurant_Review-g293736-d9681712-Reviews-Dar_El_Medina-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",426,"$"
+11,"Villa Mandarine","https://www.tripadvisor.com/Restaurant_Review-g293736-d3648229-Reviews-Villa_Mandarine-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",198,"$$$$"
+12,"Al Warda","https://www.tripadvisor.com/Restaurant_Review-g293736-d3750724-Reviews-Al_Warda-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",198,"$$$$"
+13,"Restaurant Dar Al Achab","https://www.tripadvisor.com/Restaurant_Review-g293736-d25076948-Reviews-Restaurant_Dar_Al_Achab-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",29,"$$ - $$$"
+14,"Le Petit Beur","https://www.tripadvisor.com/Restaurant_Review-g293736-d779960-Reviews-Le_Petit_Beur-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",476,"$$ - $$$"
+15,"Cafe La Galerie","https://www.tripadvisor.com/Restaurant_Review-g293736-d3750713-Reviews-Cafe_La_Galerie-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",45,"$$ - $$$"
+16,"Le Dhow","https://www.tripadvisor.com/Restaurant_Review-g293736-d3607848-Reviews-Le_Dhow-Rabat_Rabat_Sale_Kenitra.html","https://www.facebook.com/LeDhowRabat/menu/","3.5",984,"$$ - $$$"
+17,"Al Marsa","https://www.tripadvisor.com/Restaurant_Review-g293736-d2313294-Reviews-Al_Marsa-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",277,"$$$$"
+18,"Dinarjat","https://www.tripadvisor.com/Restaurant_Review-g293736-d779615-Reviews-Dinarjat-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",671,"$$$$"
+19,"Il Giardino","https://www.tripadvisor.com/Restaurant_Review-g293736-d4334018-Reviews-Il_Giardino-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",349,"$$ - $$$"
+20,"Sa Caleta","https://www.tripadvisor.com/Restaurant_Review-g293736-d5562615-Reviews-Sa_Caleta-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",189,"$$ - $$$"
+21,"Croon Lounge Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d24132850-Reviews-Croon_Lounge_Rabat-Rabat_Rabat_Sale_Kenitra.html","https://www.morecravings.com/en/venues/champions","5",71,"$$ - $$$"
+22,"Cosmopolitan Restaurant","https://www.tripadvisor.com/Restaurant_Review-g293736-d2178770-Reviews-Cosmopolitan_Restaurant-Rabat_Rabat_Sale_Kenitra.html","https://cosmopolitanrabat.webnode.fr/menu/","4.5",435,"$$$$"
+23,"Restaurant de la Liberation","https://www.tripadvisor.com/Restaurant_Review-g293736-d1309270-Reviews-Restaurant_de_la_Liberation-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",237,"$"
+24,"Le Jazz Bar","https://www.tripadvisor.com/Restaurant_Review-g293736-d25522442-Reviews-Le_Jazz_Bar-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",7,NULL
+25,"Restaurant Dar El Kebira","https://www.tripadvisor.com/Restaurant_Review-g293736-d13803420-Reviews-Restaurant_Dar_El_Kebira-Rabat_Rabat_Sale_Kenitra.html","http://www.darelkebira.com/luxury-riad-rabat-services/restaurant/","4.5",46,"$$ - $$$"
+26,"La Mamma","https://www.tripadvisor.com/Restaurant_Review-g293736-d983216-Reviews-La_Mamma-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",349,"$$ - $$$"
+27,"La Maison Arabe","https://www.tripadvisor.com/Restaurant_Review-g293736-d15666532-Reviews-La_Maison_Arabe-Rabat_Rabat_Sale_Kenitra.html","https://tourhassanpalace.com/restaurants/la-maison-arabe/","4.5",24,"$$$$"
+28,"Le So Lounge","https://www.tripadvisor.com/Restaurant_Review-g293736-d9451456-Reviews-Le_So_Lounge-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",202,"$$$$"
+29,"EL Patio","https://www.tripadvisor.com/Restaurant_Review-g293736-d3654036-Reviews-EL_Patio-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",108,"$$ - $$$"
+30,"Ty Potes","https://www.tripadvisor.com/Restaurant_Review-g293736-d2521217-Reviews-Ty_Potes-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",414,"$$ - $$$"
+31,"La Koutoubia","https://www.tripadvisor.com/Restaurant_Review-g293736-d2454628-Reviews-La_Koutoubia-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",186,"$$ - $$$"
+32,"Sun Five Cafe","https://www.tripadvisor.com/Restaurant_Review-g293736-d23614680-Reviews-Sun_Five_Cafe-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",40,"$$ - $$$"
+33,"Relais De Paris Du Diwan","https://www.tripadvisor.com/Restaurant_Review-g293736-d8340539-Reviews-Relais_De_Paris_Du_Diwan-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",156,"$$ - $$$"
+34,"La Bodega","https://www.tripadvisor.com/Restaurant_Review-g293736-d2012747-Reviews-La_Bodega-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",59,"$$ - $$$"
+35,"Le 40","https://www.tripadvisor.com/Restaurant_Review-g293736-d27928911-Reviews-Le_40-Rabat_Rabat_Sale_Kenitra.html","https://www.le40.ma/menu","5",12,"$"
+36,"Le Safran","https://www.tripadvisor.com/Restaurant_Review-g293736-d7390995-Reviews-Le_Safran-Rabat_Rabat_Sale_Kenitra.html","https://www.story-rabat.com/wp-content/uploads/2022/05/LE-SAFRAN-Business-Lunch-22522-Seasonal-Menu-2022-1.pdf","4.5",62,"$$$$"
+37,"Yamal Acham","https://www.tripadvisor.com/Restaurant_Review-g293736-d2025036-Reviews-Yamal_Acham-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",358,"$$ - $$$"
+38,"EL Bahia","https://www.tripadvisor.com/Restaurant_Review-g293736-d3589746-Reviews-EL_Bahia-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",246,"$"
+39,"Le Goeland","https://www.tripadvisor.com/Restaurant_Review-g293736-d1083692-Reviews-Le_Goeland-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",80,"$$$$"
+116,"MAYA RESTAURANT & LOUNGE","https://www.tripadvisor.com/Restaurant_Review-g293736-d20142628-Reviews-MAYA_RESTAURANT_LOUNGE-Rabat_Rabat_Sale_Kenitra.html","http://maya.menu/mobile-menu/","3.5",10,NULL
+40,"Blue Berry Hay Riad","https://www.tripadvisor.com/Restaurant_Review-g293736-d28030879-Reviews-Blue_Berry_Hay_Riad-Rabat_Rabat_Sale_Kenitra.html","https://qrious.aflip.in/dca41c6575.html","5",10,"$"
+41,"Dar Rbatia","https://www.tripadvisor.com/Restaurant_Review-g293736-d1948691-Reviews-Dar_Rbatia-Rabat_Rabat_Sale_Kenitra.html","https://darrbatia.com/menu-restaurant/","4",390,"$$ - $$$"
+42,"Coq Magic","https://www.tripadvisor.com/Restaurant_Review-g293736-d1958502-Reviews-Coq_Magic-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",158,"$"
+43,"Le Bistrot du Pietri","https://www.tripadvisor.com/Restaurant_Review-g293736-d1994866-Reviews-Le_Bistrot_du_Pietri-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",259,"$$ - $$$"
+44,"Le Limonadier","https://www.tripadvisor.com/Restaurant_Review-g293736-d12615360-Reviews-Le_Limonadier-Rabat_Rabat_Sale_Kenitra.html","http://www.lelimonadier.com#menu","4.5",98,"$$$$"
+45,"Gotham the burger city","https://www.tripadvisor.com/Restaurant_Review-g293736-d10777394-Reviews-Gotham_the_burger_city-Rabat_Rabat_Sale_Kenitra.html","https://www.tripadvisor.fr/ManagePhotos-g293736-d10777394-Gotham_the_burger_city-Rabat_Rabat_Sale_Zemmour_Zaer_Region.html#/managePhotos/management?action=&lightboxPhoto=377028245","4.5",113,"$"
+46,"Picolo's","https://www.tripadvisor.com/Restaurant_Review-g293736-d2235381-Reviews-Picolo_s-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",244,"$$ - $$$"
+47,"Restaurant Riad Kalaa","https://www.tripadvisor.com/Restaurant_Review-g293736-d3158462-Reviews-Restaurant_Riad_Kalaa-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",146,"$$ - $$$"
+48,"Amber Bar","https://www.tripadvisor.com/Restaurant_Review-g293736-d8604706-Reviews-Amber_Bar-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",115,"$$ - $$$"
+49,"Chez Ouazzani","https://www.tripadvisor.com/Restaurant_Review-g293736-d779636-Reviews-Chez_Ouazzani-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",133,"$$ - $$$"
+50,"Fino Resto","https://www.tripadvisor.com/Restaurant_Review-g293736-d12940183-Reviews-Fino_Resto-Rabat_Rabat_Sale_Kenitra.html","http://Facebook.com/allactivity?privacy_source=activity_log_top_menu","4.5",15,"$$ - $$$"
+51,"Babel Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d14043485-Reviews-Babel_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",45,"$"
+52,"Restaurant Le Ziryab","https://www.tripadvisor.com/Restaurant_Review-g293736-d1148049-Reviews-Restaurant_Le_Ziryab-Rabat_Rabat_Sale_Kenitra.html","http://www.restaurantleziryab.com/menu/","3.5",217,"$$$$"
+53,"Goethe-Institut Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d2722497-Reviews-Goethe_Institut_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",101,"$$ - $$$"
+54,"Borjeddar","https://www.tripadvisor.com/Restaurant_Review-g293736-d3682217-Reviews-Borjeddar-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",186,"$$ - $$$"
+55,"Zayyane","https://www.tripadvisor.com/Restaurant_Review-g293736-d4582564-Reviews-Zayyane-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",136,"$$ - $$$"
+56,"Naga Thaï Cuisine","https://www.tripadvisor.com/Restaurant_Review-g293736-d7077015-Reviews-Naga_Thai_Cuisine-Rabat_Rabat_Sale_Kenitra.html","http://www.naga.ma/menu_gird.html","4",142,"$$ - $$$"
+57,"Cafe Mazarine","https://www.tripadvisor.com/Restaurant_Review-g293736-d10046220-Reviews-Cafe_Mazarine-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",9,NULL
+58,"Matsuri","https://www.tripadvisor.com/Restaurant_Review-g293736-d1220036-Reviews-Matsuri-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",91,"$$$$"
+59,"Maymana","https://www.tripadvisor.com/Restaurant_Review-g293736-d7202701-Reviews-Maymana-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",55,"$$ - $$$"
+60,"La Tradition","https://www.tripadvisor.com/Restaurant_Review-g293736-d19063311-Reviews-La_Tradition-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",16,"$"
+61,"Casa Jose Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d12288578-Reviews-Casa_Jose_Rabat-Rabat_Rabat_Sale_Kenitra.html","http://grupocasajose.com/notre-menu/","3.5",219,"$$ - $$$"
+62,"Le Relais de Paris du Diwan","https://www.tripadvisor.com/Restaurant_Review-g293736-d26240951-Reviews-Le_Relais_de_Paris_du_Diwan-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",21,NULL
+63,"La Table de l'Amiral","https://www.tripadvisor.com/Restaurant_Review-g293736-d23762074-Reviews-La_Table_de_l_Amiral-Rabat_Rabat_Sale_Kenitra.html","https://carte.latabledelamiral.com/lacartedelatabledelamiral.pdf","3.5",48,"$$ - $$$"
+64,"Sushi Box","https://www.tripadvisor.com/Restaurant_Review-g293736-d6717619-Reviews-Sushi_Box-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",108,"$$ - $$$"
+65,"Tajine Wa Tanjia","https://www.tripadvisor.com/Restaurant_Review-g293736-d1631863-Reviews-Tajine_Wa_Tanjia-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",378,"$$ - $$$"
+66,"Little Mamma Agdal","https://www.tripadvisor.com/Restaurant_Review-g293736-d25291982-Reviews-Little_Mamma_Agdal-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",9,"$$ - $$$"
+67,"Le Georges","https://www.tripadvisor.com/Restaurant_Review-g293736-d7285500-Reviews-Le_Georges-Rabat_Rabat_Sale_Kenitra.html","https://www.facebook.com/legeorgesrabat/menu","4",182,"$$$$"
+68,"Oteppan","https://www.tripadvisor.com/Restaurant_Review-g293736-d23116194-Reviews-Oteppan-Rabat_Rabat_Sale_Kenitra.html","https://www.calameo.com/read/0039912137773239f135a","4.5",13,"$$ - $$$"
+69,"La Tour Hassan","https://www.tripadvisor.com/Restaurant_Review-g293736-d6885459-Reviews-La_Tour_Hassan-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",33,"$$ - $$$"
+70,"99 Sushi Bar & Restaurant Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d25260691-Reviews-99_Sushi_Bar_Restaurant_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",20,"$$$$"
+71,"Uni Sushibar","https://www.tripadvisor.com/Restaurant_Review-g293736-d26714783-Reviews-Uni_Sushibar-Rabat_Rabat_Sale_Kenitra.html","https://bit.ly/Unisushibar_menu","4",19,"$$ - $$$"
+72,"Niamat Shoul Ferme Pédagogique","https://www.tripadvisor.com/Restaurant_Review-g293736-d23752676-Reviews-Niamat_Shoul_Ferme_Pedagogique-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",7,NULL
+73,"Restaurant Les Deux Palais","https://www.tripadvisor.com/Restaurant_Review-g293736-d8526001-Reviews-Restaurant_Les_Deux_Palais-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",124,"$$ - $$$"
+74,"Poissons El Alami","https://www.tripadvisor.com/Restaurant_Review-g293736-d13814367-Reviews-Poissons_El_Alami-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",13,"$$ - $$$"
+75,"Cedric Graulet","https://www.tripadvisor.com/Restaurant_Review-g293736-d17416398-Reviews-Cedric_Graulet-Rabat_Rabat_Sale_Kenitra.html","https://www.facebook.com/traiteurcedricgrauletT","4",47,"$$$$"
+76,"El Barrio Latino","https://www.tripadvisor.com/Restaurant_Review-g293736-d1748084-Reviews-El_Barrio_Latino-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",87,"$$ - $$$"
+77,"Moojood - More Than Food","https://www.tripadvisor.com/Restaurant_Review-g293736-d23687536-Reviews-Moojood_More_Than_Food-Rabat_Rabat_Sale_Kenitra.html","https://www.order-moojood.ma/fr/store/Moojood-rabat-2/1075099","5",22,"$"
+78,"Clay Oven Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d16849885-Reviews-Clay_Oven_Rabat-Rabat_Rabat_Sale_Kenitra.html","http://www.clayoven.ma/menu.php?name=ENTRÉES","4.5",52,"$$ - $$$"
+79,"Restaurant de la Plage","https://www.tripadvisor.com/Restaurant_Review-g293736-d5003019-Reviews-Restaurant_de_la_Plage-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",126,"$$ - $$$"
+80,"Restaurant La Marsa","https://www.tripadvisor.com/Restaurant_Review-g293736-d2342565-Reviews-Restaurant_La_Marsa-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",76,"$$ - $$$"
+81,"Restaurant Tian An Men Chinois","https://www.tripadvisor.com/Restaurant_Review-g293736-d6121982-Reviews-Restaurant_Tian_An_Men_Chinois-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",38,"$$ - $$$"
+82,"Taghazout","https://www.tripadvisor.com/Restaurant_Review-g293736-d4047843-Reviews-Taghazout-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",42,"$"
+83,"Chhiwaat Yemma","https://www.tripadvisor.com/Restaurant_Review-g293736-d23538690-Reviews-Chhiwaat_Yemma-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",23,"$$ - $$$"
+84,"La Scène","https://www.tripadvisor.com/Restaurant_Review-g293736-d12416945-Reviews-La_Scene-Rabat_Rabat_Sale_Kenitra.html","http://www.renaissance.ma/menucafé/","4.5",14,NULL
+85,"La Menora","https://www.tripadvisor.com/Restaurant_Review-g293736-d1850723-Reviews-La_Menora-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",131,"$$ - $$$"
+86,"Kasr Al Assil","https://www.tripadvisor.com/Restaurant_Review-g293736-d17174824-Reviews-Kasr_Al_Assil-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",20,"$"
+87,"Pause Gourmet","https://www.tripadvisor.com/Restaurant_Review-g293736-d4556005-Reviews-Pause_Gourmet-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",78,"$$ - $$$"
+88,"Otantik Restaurant ","https://www.tripadvisor.com/Restaurant_Review-g293736-d25578871-Reviews-Otantik_Restaurant-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",3,"$"
+89,"Duchessa","https://www.tripadvisor.com/Restaurant_Review-g293736-d26040365-Reviews-Duchessa-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",5,NULL
+90,"Sushi house","https://www.tripadvisor.com/Restaurant_Review-g293736-d10329162-Reviews-Sushi_house-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",40,"$$ - $$$"
+91,"F.café","https://www.tripadvisor.com/Restaurant_Review-g293736-d12265414-Reviews-F_cafe-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",18,"$$ - $$$"
+92,"The Marina Steakhouse","https://www.tripadvisor.com/Restaurant_Review-g293736-d15139062-Reviews-The_Marina_Steakhouse-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",31,"$$ - $$$"
+93,"Restaurant Dar Rabiaa","https://www.tripadvisor.com/Restaurant_Review-g293736-d27234671-Reviews-Restaurant_Dar_Rabiaa-Rabat_Rabat_Sale_Kenitra.html","https://darrabiaa.com/services/menu","5",4,"$$ - $$$"
+94,"AS'IAM","https://www.tripadvisor.com/Restaurant_Review-g293736-d2171427-Reviews-AS_IAM-Rabat_Rabat_Sale_Kenitra.html","http://culinconcept.com/wp-content/uploads/2017/09/Asiam-menu.pdf","3.5",101,"$$ - $$$"
+95,"Bo & Bun Cantine Asiatique","https://www.tripadvisor.com/Restaurant_Review-g293736-d24062920-Reviews-Bo_Bun_Cantine_Asiatique-Rabat_Rabat_Sale_Kenitra.html","https://drive.google.com/file/d/1M_U5YAIKa4SsXKQ5R6naf-D3S1JaowXC/view","5",4,"$$$$"
+96,"La Casa Di Carta","https://www.tripadvisor.com/Restaurant_Review-g293736-d15291633-Reviews-La_Casa_Di_Carta-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",12,"$"
+97,"La Brise","https://www.tripadvisor.com/Restaurant_Review-g293736-d26264672-Reviews-La_Brise-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",9,NULL
+98,"La Table du Terminus","https://www.tripadvisor.com/Restaurant_Review-g293736-d9607957-Reviews-La_Table_du_Terminus-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",53,"$$$$"
+99,"Pizza Ricca","https://www.tripadvisor.com/Restaurant_Review-g293736-d8477817-Reviews-Pizza_Ricca-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",13,"$"
+100,"pietri palace","https://www.tripadvisor.com/Restaurant_Review-g293736-d6553288-Reviews-Pietri_palace-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",42,"$$ - $$$"
+101,"Yoka Sushi","https://www.tripadvisor.com/Restaurant_Review-g293736-d2267681-Reviews-Yoka_Sushi-Rabat_Rabat_Sale_Kenitra.html","http://yokosushi1.com/menu.html","3.5",88,"$$ - $$$"
+102,"Two Brothers Restaurant Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d16652881-Reviews-Two_Brothers_Restaurant_Rabat-Rabat_Rabat_Sale_Kenitra.html","https://www.facebook.com/pg/twobrothersrabat/photos/?tab=album&album_id=2391172614533481","4",34,"$$ - $$$"
+103,"Restaurant Marocain Dar Safran","https://www.tripadvisor.com/Restaurant_Review-g293736-d14109813-Reviews-Restaurant_Marocain_Dar_Safran-Rabat_Rabat_Sale_Kenitra.html","https://qrco.de/bdJqd5","3.5",21,"$$ - $$$"
+104,"Restaurant La Bamba","https://www.tripadvisor.com/Restaurant_Review-g293736-d1216406-Reviews-Restaurant_La_Bamba-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",46,"$$ - $$$"
+105,"Dom Petiscos","https://www.tripadvisor.com/Restaurant_Review-g293736-d15028727-Reviews-Dom_Petiscos-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",48,"$$ - $$$"
+106,"Eatalia ","https://www.tripadvisor.com/Restaurant_Review-g293736-d25352400-Reviews-Eatalia-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",5,"$$ - $$$"
+107,"Bab Alhara","https://www.tripadvisor.com/Restaurant_Review-g293736-d24997400-Reviews-Bab_Alhara-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",2,NULL
+108,"Indian Flavors Restaurant & Café","https://www.tripadvisor.com/Restaurant_Review-g293736-d26503526-Reviews-Indian_Flavors_Restaurant_Cafe-Rabat_Rabat_Sale_Kenitra.html","https://indianflavors.ma/wp-content/uploads/Indian-Flavors-Menu.pdf","3.5",18,"$$ - $$$"
+109,"L'etoile Du Chef","https://www.tripadvisor.com/Restaurant_Review-g293736-d19466834-Reviews-L_etoile_Du_Chef-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",14,"$"
+110,"Restaurant Best Wishes Grillades","https://www.tripadvisor.com/Restaurant_Review-g293736-d23116023-Reviews-Restaurant_Best_Wishes_Grillades-Rabat_Rabat_Sale_Kenitra.html","https://web.facebook.com/bestwishes.rabat/photos/a.102260145216053/107509854691082/","5",8,"$"
+111,"L'entrecote","https://www.tripadvisor.com/Restaurant_Review-g293736-d3619555-Reviews-L_entrecote-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",87,"$$ - $$$"
+112,"Dar Baddi","https://www.tripadvisor.com/Restaurant_Review-g293736-d15189451-Reviews-Dar_Baddi-Rabat_Rabat_Sale_Kenitra.html","http://darbaddi.com/menu/","4",19,"$$ - $$$"
+113,"Da Milena","https://www.tripadvisor.com/Restaurant_Review-g293736-d28317283-Reviews-Da_Milena-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",2,NULL
+114,"Tuscan Bistro Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d26820028-Reviews-Tuscan_Bistro_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",8,"$$ - $$$"
+115,"American pub","https://www.tripadvisor.com/Restaurant_Review-g293736-d15931916-Reviews-American_pub-Rabat_Rabat_Sale_Kenitra.html","https://www.facebook.com/americanpubrabat/menu/","4.5",12,"$$ - $$$"
+197,"Al Andalous grille&co","https://www.tripadvisor.com/Restaurant_Review-g293736-d19756380-Reviews-Al_Andalous_grille_co-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",2,NULL
+117,"Boqueria Fina","https://www.tripadvisor.com/Restaurant_Review-g293736-d23462903-Reviews-Boqueria_Fina-Rabat_Rabat_Sale_Kenitra.html","http://boqueriafina.ma/menu/","3.5",16,"$$$$"
+118,"Kiotori","https://www.tripadvisor.com/Restaurant_Review-g293736-d779617-Reviews-Kiotori-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",35,"$$ - $$$"
+119,"Burger King Agdal","https://www.tripadvisor.com/Restaurant_Review-g293736-d12909365-Reviews-Burger_King_Agdal-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",26,"$"
+120,"Pizza Des Gourmets","https://www.tripadvisor.com/Restaurant_Review-g293736-d14215716-Reviews-Pizza_Des_Gourmets-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",5,"$"
+121,"La Peniche","https://www.tripadvisor.com/Restaurant_Review-g293736-d1536834-Reviews-La_Peniche-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",31,"$$ - $$$"
+122,"Panda","https://www.tripadvisor.com/Restaurant_Review-g293736-d23739102-Reviews-Panda-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",25,"$$ - $$$"
+123,"Restaurant Dar El Houte","https://www.tripadvisor.com/Restaurant_Review-g293736-d7337151-Reviews-Restaurant_Dar_El_Houte-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",41,"$$ - $$$"
+124,"Zerda","https://www.tripadvisor.com/Restaurant_Review-g293736-d2439466-Reviews-Zerda-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",51,"$$ - $$$"
+125,"Baiana Lounge","https://www.tripadvisor.com/Restaurant_Review-g293736-d26528797-Reviews-Baiana_Lounge-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",7,"$$ - $$$"
+126,"La Terrazza","https://www.tripadvisor.com/Restaurant_Review-g293736-d10915746-Reviews-La_Terrazza-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",10,"$$ - $$$"
+127,"El Bahia","https://www.tripadvisor.com/Restaurant_Review-g293736-d10343717-Reviews-El_Bahia-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",17,"$"
+128,"Grillade Adil","https://www.tripadvisor.com/Restaurant_Review-g293736-d5430206-Reviews-Grillade_Adil-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",34,"$"
+129,"Urban Bistro Restaurant","https://www.tripadvisor.com/Restaurant_Review-g293736-d19262563-Reviews-Urban_Bistro_Restaurant-Rabat_Rabat_Sale_Kenitra.html","https://linktr.ee/urbanbistro.rabat","4",22,"$$ - $$$"
+130,"Baz'art","https://www.tripadvisor.com/Restaurant_Review-g293736-d26767254-Reviews-Baz_art-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,NULL
+131,"Dar Al Fawakih","https://www.tripadvisor.com/Restaurant_Review-g293736-d21245031-Reviews-Dar_Al_Fawakih-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",5,"$"
+132,"LATIUM","https://www.tripadvisor.com/Restaurant_Review-g293736-d779986-Reviews-LATIUM-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",135,"$$ - $$$"
+133,"Dar Mayshad","https://www.tripadvisor.com/Restaurant_Review-g293736-d15112266-Reviews-Dar_Mayshad-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",6,"$$ - $$$"
+134,"O'Goethe 2.0","https://www.tripadvisor.com/Restaurant_Review-g293736-d8383326-Reviews-O_Goethe_2_0-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",64,"$$ - $$$"
+135,"L'Instant Ben","https://www.tripadvisor.com/Restaurant_Review-g293736-d24857276-Reviews-L_Instant_Ben-Rabat_Rabat_Sale_Kenitra.html","https://me-qr.com/mobile/pdf/8032350","4",18,"$$ - $$$"
+136,"Twenty One","https://www.tripadvisor.com/Restaurant_Review-g293736-d12131111-Reviews-Twenty_One-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",7,NULL
+137,"Shoko Lounge","https://www.tripadvisor.com/Restaurant_Review-g293736-d25237883-Reviews-Shoko_Lounge-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",3,NULL
+138,"Cedar","https://www.tripadvisor.com/Restaurant_Review-g293736-d25131188-Reviews-Cedar-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",2,NULL
+139,"Maya Sushi","https://www.tripadvisor.com/Restaurant_Review-g293736-d23899900-Reviews-Maya_Sushi-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",4,"$$$$"
+140,"Boulangerie Pâtisserie La Maison Amoud","https://www.tripadvisor.com/Restaurant_Review-g293736-d8056347-Reviews-Boulangerie_Patisserie_La_Maison_Amoud-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",37,"$$ - $$$"
+141,"Fast Pizza","https://www.tripadvisor.com/Restaurant_Review-g293736-d7337108-Reviews-Fast_Pizza-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",17,"$"
+142,"Azour Rabat Rooftop & Lounge","https://www.tripadvisor.com/Restaurant_Review-g293736-d23792234-Reviews-Azour_Rabat_Rooftop_Lounge-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",14,NULL
+143,"Le Ptit Resto","https://www.tripadvisor.com/Restaurant_Review-g293736-d7047553-Reviews-Le_Ptit_Resto-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",60,"$$ - $$$"
+144,"Dalla Zia","https://www.tripadvisor.com/Restaurant_Review-g293736-d24964446-Reviews-Dalla_Zia-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",23,"$$ - $$$"
+145,"Japoneza","https://www.tripadvisor.com/Restaurant_Review-g293736-d21338419-Reviews-Japoneza-Rabat_Rabat_Sale_Kenitra.html","https://japoneza.ma/menu","3.5",11,"$$ - $$$"
+146,"La Graille","https://www.tripadvisor.com/Restaurant_Review-g293736-d12928147-Reviews-La_Graille-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",7,"$$ - $$$"
+147,"Vinart","https://www.tripadvisor.com/Restaurant_Review-g293736-d21367597-Reviews-Vinart-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",6,"$$$$"
+148,"Restaurant la Cuchara","https://www.tripadvisor.com/Restaurant_Review-g293736-d7352577-Reviews-Restaurant_la_Cuchara-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",117,"$$$$"
+149,"Nakhat acharq","https://www.tripadvisor.com/Restaurant_Review-g293736-d23734954-Reviews-Nakhat_acharq-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",3,NULL
+150,"Upstairs","https://www.tripadvisor.com/Restaurant_Review-g293736-d3333241-Reviews-Upstairs-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",70,"$$ - $$$"
+151,"Chaia Kitchen","https://www.tripadvisor.com/Restaurant_Review-g293736-d23903739-Reviews-Chaia_Kitchen-Rabat_Rabat_Sale_Kenitra.html","https://bhealthy.ma/doc/Chaia-menu.pdf","5",3,"$$ - $$$"
+152,"Eathaï","https://www.tripadvisor.com/Restaurant_Review-g293736-d15945869-Reviews-Eathai-Rabat_Rabat_Sale_Kenitra.html","https://eathai.ma/menu/","4",14,"$$ - $$$"
+153,"Almateam Alkhalijiu Alribat","https://www.tripadvisor.com/Restaurant_Review-g293736-d26286674-Reviews-Almateam_Alkhalijiu_Alribat-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",3,NULL
+154,"Primos Chicken","https://www.tripadvisor.com/Restaurant_Review-g293736-d12138458-Reviews-Primos_Chicken-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",8,NULL
+155,"Ober Mamma","https://www.tripadvisor.com/Restaurant_Review-g293736-d25355704-Reviews-Ober_Mamma-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",4,NULL
+156,"Restaurant Chez ma Tante","https://www.tripadvisor.com/Restaurant_Review-g293736-d14923298-Reviews-Restaurant_Chez_ma_Tante-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",14,"$$ - $$$"
+157,"La Casa Emma","https://www.tripadvisor.com/Restaurant_Review-g293736-d21284969-Reviews-La_Casa_Emma-Rabat_Rabat_Sale_Kenitra.html",NULL,"2.5",39,"$$ - $$$"
+196,"La Table du Réservoir","https://www.tripadvisor.com/Restaurant_Review-g293736-d5809438-Reviews-La_Table_du_Reservoir-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",48,"$$ - $$$"
+158,"Restaurant de l'EUPHORIAD","https://www.tripadvisor.com/Restaurant_Review-g293736-d25453936-Reviews-Restaurant_de_l_EUPHORIAD-Rabat_Rabat_Sale_Kenitra.html","https://www.euphoriad.com/wp-content/uploads/2024/07/euphoriad-riad-hotel-hebergement-rabat-maroc-morocco-pool-piscine-gastronomie-restaurant-Menu-PDF-en-FR-1.pdf","5",3,"$$ - $$$"
+159,"Le Resto 3.0 Restaurant Grill bar","https://www.tripadvisor.com/Restaurant_Review-g293736-d8588628-Reviews-Le_Resto_3_0_Restaurant_Grill_bar-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",49,"$$ - $$$"
+160,"Villa M","https://www.tripadvisor.com/Restaurant_Review-g293736-d12023630-Reviews-Villa_M-Rabat_Rabat_Sale_Kenitra.html","https://villamrabat.business.site/","2",24,"$$ - $$$"
+161,"Chawarma Abtal Sham - Syrisches Restaurant","https://www.tripadvisor.com/Restaurant_Review-g293736-d11847904-Reviews-Chawarma_Abtal_Sham_Syrisches_Restaurant-Rabat_Rabat_Sale_Kenitra.html","https://www.abtalalcham.ma/","3.5",20,"$"
+162,"6eme symphonie","https://www.tripadvisor.com/Restaurant_Review-g293736-d1440236-Reviews-6eme_symphonie-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",15,"$$ - $$$"
+163,"Citir Usta","https://www.tripadvisor.com/Restaurant_Review-g293736-d10055626-Reviews-Citir_Usta-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",16,"$$ - $$$"
+164,"La Deliciosa","https://www.tripadvisor.com/Restaurant_Review-g293736-d10717766-Reviews-La_Deliciosa-Rabat_Rabat_Sale_Kenitra.html","https://ladeliciosa.ma/la-crt-menu-cat/","3.5",13,"$$ - $$$"
+165,"La Rive Restaurant","https://www.tripadvisor.com/Restaurant_Review-g293736-d4601428-Reviews-La_Rive_Restaurant-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",40,"$$ - $$$"
+166,"La Cerveceria Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d26267506-Reviews-La_Cerveceria_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",6,"$$ - $$$"
+167,"Blue Berry","https://www.tripadvisor.com/Restaurant_Review-g293736-d4993050-Reviews-Blue_Berry-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",66,"$$ - $$$"
+168,"Irish Pub","https://www.tripadvisor.com/Restaurant_Review-g293736-d4129683-Reviews-Irish_Pub-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",14,NULL
+169,"Eat Néocantine","https://www.tripadvisor.com/Restaurant_Review-g293736-d11707470-Reviews-Eat_Neocantine-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",69,"$$ - $$$"
+170,"Marzine","https://www.tripadvisor.com/Restaurant_Review-g293736-d8825284-Reviews-Marzine-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",12,"$$ - $$$"
+171,"Baci ","https://www.tripadvisor.com/Restaurant_Review-g293736-d26445176-Reviews-Baci-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",5,"$$$$"
+172,"Youm Youm","https://www.tripadvisor.com/Restaurant_Review-g293736-d17847533-Reviews-Youm_Youm-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",4,"$"
+173,"Mitsuki Arribat Center","https://www.tripadvisor.com/Restaurant_Review-g293736-d21326798-Reviews-Mitsuki_Arribat_Center-Rabat_Rabat_Sale_Kenitra.html","https://fr.calameo.com/read/0039912130bb98897b7ce","3.5",11,"$$ - $$$"
+174,"OM Restauration Traditionnelle","https://www.tripadvisor.com/Restaurant_Review-g293736-d13418120-Reviews-OM_Restauration_Traditionnelle-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",21,"$"
+175,"Al Forno","https://www.tripadvisor.com/Restaurant_Review-g293736-d9982390-Reviews-Al_Forno-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",13,"$$ - $$$"
+176,"El Palatino","https://www.tripadvisor.com/Restaurant_Review-g293736-d779988-Reviews-El_Palatino-Rabat_Rabat_Sale_Kenitra.html",NULL,"2.5",27,"$$ - $$$"
+177,"Oceanos Mediterranean Flavour","https://www.tripadvisor.com/Restaurant_Review-g293736-d25102663-Reviews-Oceanos_Mediterranean_Flavour-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,NULL
+178,"Turk'it","https://www.tripadvisor.com/Restaurant_Review-g293736-d17425846-Reviews-Turk_it-Rabat_Rabat_Sale_Kenitra.html","https://www.facebook.com/tuurkit/menu","4",8,NULL
+179,"La Piccola Italia","https://www.tripadvisor.com/Restaurant_Review-g293736-d14002996-Reviews-La_Piccola_Italia-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",6,NULL
+180,"La Rambla","https://www.tripadvisor.com/Restaurant_Review-g293736-d20070565-Reviews-La_Rambla-Rabat_Rabat_Sale_Kenitra.html",NULL,"2.5",17,"$$$$"
+181,"Milano","https://www.tripadvisor.com/Restaurant_Review-g293736-d3268208-Reviews-Milano-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",17,"$$ - $$$"
+182,"Bistrot Burger","https://www.tripadvisor.com/Restaurant_Review-g293736-d12002832-Reviews-Bistrot_Burger-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",48,"$$ - $$$"
+183,"Restaurant Alaska Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d28569113-Reviews-Restaurant_Alaska_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,"$$ - $$$"
+184,"Miam","https://www.tripadvisor.com/Restaurant_Review-g293736-d15053246-Reviews-Miam-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",21,"$$ - $$$"
+185,"Sofia Palace","https://www.tripadvisor.com/Restaurant_Review-g293736-d7255586-Reviews-Sofia_Palace-Rabat_Rabat_Sale_Kenitra.html","http://www.sofiapalace.ma/menu.html","2.5",53,"$$ - $$$"
+186,"O'globe Cafe","https://www.tripadvisor.com/Restaurant_Review-g293736-d3984334-Reviews-O_globe_Cafe-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",6,NULL
+187,"Le Coin Des Crepes","https://www.tripadvisor.com/Restaurant_Review-g293736-d17652440-Reviews-Le_Coin_Des_Crepes-Rabat_Rabat_Sale_Kenitra.html","https://www.facebook.com/lecoindescrepesrabat","5",6,"$"
+188,"Burrito Factory","https://www.tripadvisor.com/Restaurant_Review-g293736-d21113025-Reviews-Burrito_Factory-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",2,"$"
+189,"Restaurant Dar Larita","https://www.tripadvisor.com/Restaurant_Review-g293736-d23705284-Reviews-Restaurant_Dar_Larita-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",9,"$$$$"
+190,"Restaurant Dar Larsa","https://www.tripadvisor.com/Restaurant_Review-g293736-d26240739-Reviews-Restaurant_Dar_Larsa-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",3,NULL
+191,"Chalet Suisse","https://www.tripadvisor.com/Restaurant_Review-g293736-d8474373-Reviews-Chalet_Suisse-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",14,"$$ - $$$"
+192,"MonteCristo","https://www.tripadvisor.com/Restaurant_Review-g293736-d4185438-Reviews-MonteCristo-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",26,"$$ - $$$"
+193,"Restaurant Espagnol Bem Bom","https://www.tripadvisor.com/Restaurant_Review-g293736-d25101660-Reviews-Restaurant_Espagnol_Bem_Bom-Rabat_Rabat_Sale_Kenitra.html","https://www.google.com/search?q=Bem+Bom+restaurant+espagnol&stick=H4sIAAAAAAAA_-NgU1IxqEhJNDdLMTZNNU6yTEu1TLECiiQlWhhbmhmkJqeaGRgamS9ilXZKzVVwys9VKEotLkksLUrMK1FILS5ITM_LzwEAyELAOEYAAAA&hl=fr&mat=CRoBTWzQGWUUElcBl7_LlwyuSW-QOi3DtXVI-uMXZEtOZ-Jd0kBxl8zNTEL4CS1Slx6A7D3mrqMxNuD_n-evB2TuzG5WygS0GX_cK2Qek15V9KL5_8Ty36slHF6meRiYzX0&authuser=1#mpd=~1469609236367212826/editprofile/foodmenu","5",3,NULL
+194,"Paul","https://www.tripadvisor.com/Restaurant_Review-g293736-d4339498-Reviews-Paul-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",139,"$$ - $$$"
+195,"Sushi house","https://www.tripadvisor.com/Restaurant_Review-g293736-d15598918-Reviews-Sushi_house-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",6,NULL
+198,"Espace Hassan","https://www.tripadvisor.com/Restaurant_Review-g293736-d15575933-Reviews-Espace_Hassan-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",7,"$"
+199,"M'gourmet Maison Chorouk","https://www.tripadvisor.com/Restaurant_Review-g293736-d28988246-Reviews-M_gourmet_Maison_Chorouk-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",2,NULL
+200,"Villa Jnane","https://www.tripadvisor.com/Restaurant_Review-g293736-d26678681-Reviews-Villa_Jnane-Rabat_Rabat_Sale_Kenitra.html","https://villajnane.com/menu/","3.5",13,"$"
+201,"K'art Restaurant","https://www.tripadvisor.com/Restaurant_Review-g293736-d23594793-Reviews-K_art_Restaurant-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",9,"$$ - $$$"
+202,"Al Fanous","https://www.tripadvisor.com/Restaurant_Review-g293736-d4923851-Reviews-Al_Fanous-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",11,"$"
+203,"Mes Régals","https://www.tripadvisor.com/Restaurant_Review-g293736-d23507071-Reviews-Mes_Regals-Rabat_Rabat_Sale_Kenitra.html","https://www.instagram.com/stories/highlights/17921183977703206/","5",2,"$$ - $$$"
+204,"GRILL 23","https://www.tripadvisor.com/Restaurant_Review-g293736-d8534598-Reviews-GRILL_23-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",21,"$"
+205,"Brunch","https://www.tripadvisor.com/Restaurant_Review-g293736-d10391466-Reviews-Brunch-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",7,"$"
+206,"Mister Brochette","https://www.tripadvisor.com/Restaurant_Review-g293736-d8329069-Reviews-Mister_Brochette-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",4,"$"
+207,"El Tropic","https://www.tripadvisor.com/Restaurant_Review-g293736-d15291121-Reviews-El_Tropic-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",4,"$$ - $$$"
+208,"Between The Buns","https://www.tripadvisor.com/Restaurant_Review-g293736-d23239588-Reviews-Between_The_Buns-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",7,"$"
+209,"Metros de pizza","https://www.tripadvisor.com/Restaurant_Review-g293736-d8283417-Reviews-Metros_de_pizza-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",31,"$$ - $$$"
+210,"Chez Lena","https://www.tripadvisor.com/Restaurant_Review-g293736-d7334342-Reviews-Chez_Lena-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",12,"$$ - $$$"
+211,"Oliveri","https://www.tripadvisor.com/Restaurant_Review-g293736-d17426091-Reviews-Oliveri-Rabat_Rabat_Sale_Kenitra.html","https://www.oliveri.ma/wp-content/uploads/2019/02/MenuOliveri.pdf","2.5",13,NULL
+212,"El Chapo","https://www.tripadvisor.com/Restaurant_Review-g293736-d17708817-Reviews-El_Chapo-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",32,"$$ - $$$"
+213,"La Fournee","https://www.tripadvisor.com/Restaurant_Review-g293736-d7900908-Reviews-La_Fournee-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",28,"$$ - $$$"
+214,"Vertigo Restaurant Lounge","https://www.tripadvisor.com/Restaurant_Review-g293736-d11768665-Reviews-Vertigo_Restaurant_Lounge-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",14,"$$ - $$$"
+215,"Restaurant & Pizzeria Le Capri","https://www.tripadvisor.com/Restaurant_Review-g293736-d13000224-Reviews-Restaurant_Pizzeria_Le_Capri-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",10,"$"
+216,"Cafe Restaurant Saadi","https://www.tripadvisor.com/Restaurant_Review-g293736-d15227682-Reviews-Cafe_Restaurant_Saadi-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",7,"$$ - $$$"
+217,"Boulangerie Patisserie Chef D'oeuvre","https://www.tripadvisor.com/Restaurant_Review-g293736-d11855976-Reviews-Boulangerie_Patisserie_Chef_D_oeuvre-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",6,NULL
+218,"Cafe Cinema Renaissance","https://www.tripadvisor.com/Restaurant_Review-g293736-d14179200-Reviews-Cafe_Cinema_Renaissance-Rabat_Rabat_Sale_Kenitra.html","http://www.cafecinemarenaissance.ma#menu","4",6,"$"
+219,"Little Mamma Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d25271950-Reviews-Little_Mamma_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"2",14,"$$ - $$$"
+220,"Chez Amy la Saint-Louisienne","https://www.tripadvisor.com/Restaurant_Review-g293736-d14137606-Reviews-Chez_Amy_la_Saint_Louisienne-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",2,NULL
+221,"Zumba Snack a Jus","https://www.tripadvisor.com/Restaurant_Review-g293736-d8625788-Reviews-Zumba_Snack_a_Jus-Rabat_Rabat_Sale_Kenitra.html","http://www.Facebook.com/allactivity?privacy_source=activity_log_top_menu","3.5",19,"$"
+222,"Capanna","https://www.tripadvisor.com/Restaurant_Review-g293736-d25234441-Reviews-Capanna-Rabat_Rabat_Sale_Kenitra.html",NULL,"2",11,"$$ - $$$"
+223,"Ristorante Finzi","https://www.tripadvisor.com/Restaurant_Review-g293736-d19654503-Reviews-Ristorante_Finzi-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",8,"$$ - $$$"
+224,"Columbus Café & Co","https://www.tripadvisor.com/Restaurant_Review-g293736-d13319136-Reviews-Columbus_Cafe_Co-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",19,"$$ - $$$"
+225,"Bert's Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d779982-Reviews-Bert_s_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",27,"$$ - $$$"
+226,"Rabat Kungfu Restaurant","https://www.tripadvisor.com/Restaurant_Review-g293736-d10249084-Reviews-Rabat_Kungfu_Restaurant-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",17,"$$ - $$$"
+227,"Al Maghribi Restaurant","https://www.tripadvisor.com/Restaurant_Review-g293736-d19104355-Reviews-Al_Maghribi_Restaurant-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",3,"$"
+228,"Restaurant La Pagode","https://www.tripadvisor.com/Restaurant_Review-g293736-d1216410-Reviews-Restaurant_La_Pagode-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",35,"$$ - $$$"
+229,"Poisson Anass","https://www.tripadvisor.com/Restaurant_Review-g293736-d3638195-Reviews-Poisson_Anass-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",12,"$$ - $$$"
+230,"Thai Sushi Cuisine","https://www.tripadvisor.com/Restaurant_Review-g293736-d23792505-Reviews-Thai_Sushi_Cuisine-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",3,NULL
+231,"La Casa Emma","https://www.tripadvisor.com/Restaurant_Review-g293736-d23014071-Reviews-La_Casa_Emma-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,NULL
+232,"Snack Sahbi","https://www.tripadvisor.com/Restaurant_Review-g293736-d12138442-Reviews-Snack_Sahbi-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",3,NULL
+233,"Le Legend Club","https://www.tripadvisor.com/Restaurant_Review-g293736-d25131180-Reviews-Le_Legend_Club-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",4,NULL
+234,"Le Trendy Lounge Bar","https://www.tripadvisor.com/Restaurant_Review-g293736-d14401726-Reviews-Le_Trendy_Lounge_Bar-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",6,"$$ - $$$"
+235,"Pizza Hut","https://www.tripadvisor.com/Restaurant_Review-g293736-d12981513-Reviews-Pizza_Hut-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",4,"$"
+236,"Foul Elomda","https://www.tripadvisor.com/Restaurant_Review-g293736-d15086455-Reviews-Foul_Elomda-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",6,NULL
+237,"Sushi Youzar","https://www.tripadvisor.com/Restaurant_Review-g293736-d25325870-Reviews-Sushi_Youzar-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,NULL
+238,"Anoual","https://www.tripadvisor.com/Restaurant_Review-g293736-d21247338-Reviews-Anoual-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,"$"
+239,"KFC","https://www.tripadvisor.com/Restaurant_Review-g293736-d13083456-Reviews-KFC-Rabat_Rabat_Sale_Kenitra.html",NULL,"2.5",12,NULL
+240,"Castel Bab Had","https://www.tripadvisor.com/Restaurant_Review-g293736-d16904265-Reviews-Castel_Bab_Had-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",5,"$$ - $$$"
+241,"Bluespoon Coffee Kitchen","https://www.tripadvisor.com/Restaurant_Review-g293736-d16820540-Reviews-Bluespoon_Coffee_Kitchen-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",7,"$$$$"
+242,"Restaurant Club Havana","https://www.tripadvisor.com/Restaurant_Review-g293736-d10343881-Reviews-Restaurant_Club_Havana-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",11,"$$ - $$$"
+243,"Yoka Sushi Hay Riad","https://www.tripadvisor.com/Restaurant_Review-g293736-d4701812-Reviews-Yoka_Sushi_Hay_Riad-Rabat_Rabat_Sale_Kenitra.html","http://yokasushi.com/#carte-des-menus","3.5",38,"$$ - $$$"
+244,"Churrascaria Marius Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d8738436-Reviews-Churrascaria_Marius_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"2.5",9,"$$ - $$$"
+245,"La PIZ Hay Riad","https://www.tripadvisor.com/Restaurant_Review-g293736-d13485900-Reviews-La_PIZ_Hay_Riad-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",29,"$$ - $$$"
+246,"La pêche du jour","https://www.tripadvisor.com/Restaurant_Review-g293736-d15097334-Reviews-La_peche_du_jour-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",5,NULL
+247,"Weston Jazz Club","https://www.tripadvisor.com/Restaurant_Review-g293736-d27793055-Reviews-Weston_Jazz_Club-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+248,"Atlas Chicken","https://www.tripadvisor.com/Restaurant_Review-g293736-d7337095-Reviews-Atlas_Chicken-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",9,"$"
+249,"Le cedre du Liban","https://www.tripadvisor.com/Restaurant_Review-g293736-d13662285-Reviews-Le_cedre_du_Liban-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",16,"$$ - $$$"
+250,"Le Mare Nostrum","https://www.tripadvisor.com/Restaurant_Review-g293736-d20893588-Reviews-Le_Mare_Nostrum-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$"
+251,"Le Four à Bois","https://www.tripadvisor.com/Restaurant_Review-g293736-d11487546-Reviews-Le_Four_a_Bois-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",11,"$$ - $$$"
+252,"BARBECUE agdal","https://www.tripadvisor.com/Restaurant_Review-g293736-d14985306-Reviews-BARBECUE_agdal-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",8,NULL
+253,"Castel Restaurant","https://www.tripadvisor.com/Restaurant_Review-g293736-d25338485-Reviews-Castel_Restaurant-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",2,NULL
+254,"Creperie Rabat : La crepe-rit","https://www.tripadvisor.com/Restaurant_Review-g293736-d17850451-Reviews-Creperie_Rabat_La_crepe_rit-Rabat_Rabat_Sale_Kenitra.html","http://www.crepe.ma","3",6,"$"
+255,"Rôtisseurs & Co","https://www.tripadvisor.com/Restaurant_Review-g293736-d13163333-Reviews-Rotisseurs_Co-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",10,"$$ - $$$"
+256,"West Coasts","https://www.tripadvisor.com/Restaurant_Review-g293736-d17806168-Reviews-West_Coasts-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",2,NULL
+257,"Sushi Box","https://www.tripadvisor.com/Restaurant_Review-g293736-d12421496-Reviews-Sushi_Box-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",8,"$$ - $$$"
+258,"Tapas Sol","https://www.tripadvisor.com/Restaurant_Review-g293736-d25013060-Reviews-Tapas_Sol-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+259,"El Barco Verde","https://www.tripadvisor.com/Restaurant_Review-g293736-d23800147-Reviews-El_Barco_Verde-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",2,NULL
+260,"Aya Rosa","https://www.tripadvisor.com/Restaurant_Review-g293736-d13359529-Reviews-Aya_Rosa-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",4,"$"
+261,"El Cielo Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d26834830-Reviews-El_Cielo_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+262,"No 17 at The Repose","https://www.tripadvisor.com/Restaurant_Review-g293736-d15228087-Reviews-No_17_at_The_Repose-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,"$$ - $$$"
+263,"La Sala Anne Marie","https://www.tripadvisor.com/Restaurant_Review-g293736-d7713110-Reviews-La_Sala_Anne_Marie-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",29,"$$ - $$$"
+264,"La Villa Romana","https://www.tripadvisor.com/Restaurant_Review-g293736-d779987-Reviews-La_Villa_Romana-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",13,NULL
+265,"Le Nautilus Café BD ludothèque","https://www.tripadvisor.com/Restaurant_Review-g293736-d27184422-Reviews-Le_Nautilus_Cafe_BD_ludotheque-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+266,"Cactus Café-Resto","https://www.tripadvisor.com/Restaurant_Review-g293736-d25335672-Reviews-Cactus_Cafe_Resto-Rabat_Rabat_Sale_Kenitra.html","https://www.cactusrestaurants.com/","5",1,NULL
+267,"McDonald's","https://www.tripadvisor.com/Restaurant_Review-g293736-d12930242-Reviews-McDonald_s-Rabat_Rabat_Sale_Kenitra.html","https://www.mcdonalds.ma/les-produits-mcdo#nos-menus","3.5",6,"$"
+268,"Boca Grande","https://www.tripadvisor.com/Restaurant_Review-g293736-d13325911-Reviews-Boca_Grande-Rabat_Rabat_Sale_Kenitra.html",NULL,"1.5",28,"$$ - $$$"
+269,"Janeiro Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d27731534-Reviews-Janeiro_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+270,"Paparotti","https://www.tripadvisor.com/Restaurant_Review-g293736-d9785346-Reviews-Paparotti-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",10,"$"
+271,"La Bonne Table","https://www.tripadvisor.com/Restaurant_Review-g293736-d8026218-Reviews-La_Bonne_Table-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",10,"$$$$"
+272,"Sweetopia ","https://www.tripadvisor.com/Restaurant_Review-g293736-d25326890-Reviews-Sweetopia-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,NULL
+273,"Restaurant Pizzeria Grill Reggio","https://www.tripadvisor.com/Restaurant_Review-g293736-d8814484-Reviews-Restaurant_Pizzeria_Grill_Reggio-Rabat_Rabat_Sale_Kenitra.html","https://drive.google.com/file/d/1hf6CfNirVg9KzBhoGmAn90ms8kroWoRB/view?usp=sharing","3",13,"$$ - $$$"
+274,"Barco Blanco","https://www.tripadvisor.com/Restaurant_Review-g293736-d17665304-Reviews-Barco_Blanco-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",25,"$$ - $$$"
+275,"Pâtisserie aux merveilles de la médina","https://www.tripadvisor.com/Restaurant_Review-g293736-d10778867-Reviews-Patisserie_aux_merveilles_de_la_medina-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",2,NULL
+276,"Café Restaurant Théâtre","https://www.tripadvisor.com/Restaurant_Review-g293736-d13120890-Reviews-Cafe_Restaurant_Theatre-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,"$"
+277,"Restaurant la Galerie","https://www.tripadvisor.com/Restaurant_Review-g293736-d7303667-Reviews-Restaurant_la_Galerie-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",8,"$$ - $$$"
+278,"Mitsuki Gare de Rabat-Agdal","https://www.tripadvisor.com/Restaurant_Review-g293736-d19468319-Reviews-Mitsuki_Gare_de_Rabat_Agdal-Rabat_Rabat_Sale_Kenitra.html","https://fr.calameo.com/read/0039912130bb98897b7ce","2",5,"$$ - $$$"
+279,"Plato Loco","https://www.tripadvisor.com/Restaurant_Review-g293736-d18454879-Reviews-Plato_Loco-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",4,NULL
+280,"Fine Yemma","https://www.tripadvisor.com/Restaurant_Review-g293736-d25423587-Reviews-Fine_Yemma-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,NULL
+281,"L'R du Gout","https://www.tripadvisor.com/Restaurant_Review-g293736-d6104888-Reviews-L_R_du_Gout-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,NULL
+282,"Lalola Restaurant, Lounge & Bar a Tapas","https://www.tripadvisor.com/Restaurant_Review-g293736-d5971452-Reviews-Lalola_Restaurant_Lounge_Bar_a_Tapas-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",4,NULL
+283,"Funky Chen","https://www.tripadvisor.com/Restaurant_Review-g293736-d23630753-Reviews-Funky_Chen-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",3,NULL
+284,"EL Gaucho resto","https://www.tripadvisor.com/Restaurant_Review-g293736-d12350464-Reviews-EL_Gaucho_resto-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,NULL
+285,"Abtal Délice","https://www.tripadvisor.com/Restaurant_Review-g293736-d12942175-Reviews-Abtal_Delice-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",6,NULL
+286,"Taco Bueno","https://www.tripadvisor.com/Restaurant_Review-g293736-d11779283-Reviews-Taco_Bueno-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",1,NULL
+287,"Addik","https://www.tripadvisor.com/Restaurant_Review-g293736-d10962037-Reviews-Addik-Rabat_Rabat_Sale_Kenitra.html","http://addik.ma/index.php/menu/","3.5",10,"$"
+288,"Bleu River Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d26684768-Reviews-Bleu_River_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"2.5",2,"$$ - $$$"
+289,"Restaurant Cafe Bab Laalou","https://www.tripadvisor.com/Restaurant_Review-g293736-d27993024-Reviews-Restaurant_Cafe_Bab_Laalou-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",2,NULL
+290,"La Petite Duchesse","https://www.tripadvisor.com/Restaurant_Review-g293736-d12919379-Reviews-La_Petite_Duchesse-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",2,NULL
+291,"Restaurant Babel R","https://www.tripadvisor.com/Restaurant_Review-g293736-d16870381-Reviews-Restaurant_Babel_R-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",2,NULL
+292,"INWA Tacos & Pizza","https://www.tripadvisor.com/Restaurant_Review-g293736-d13168039-Reviews-INWA_Tacos_Pizza-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",6,NULL
+293,"Sandway","https://www.tripadvisor.com/Restaurant_Review-g293736-d12800122-Reviews-Sandway-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",2,NULL
+294,"Satine","https://www.tripadvisor.com/Restaurant_Review-g293736-d19917337-Reviews-Satine-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",4,NULL
+295,"Cafe Shazine","https://www.tripadvisor.com/Restaurant_Review-g293736-d15725039-Reviews-Cafe_Shazine-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",3,"$"
+296,"L'endroit","https://www.tripadvisor.com/Restaurant_Review-g293736-d23404861-Reviews-L_endroit-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",14,"$$ - $$$"
+297,"La Pause Gourmande","https://www.tripadvisor.com/Restaurant_Review-g293736-d6698432-Reviews-La_Pause_Gourmande-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",14,"$$ - $$$"
+298,"IL 288 Rabat - Mediterranean Food & Garden","https://www.tripadvisor.com/Restaurant_Review-g293736-d20141214-Reviews-IL_288_Rabat_Mediterranean_Food_Garden-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",9,"$$ - $$$"
+299,"Le dix-sept","https://www.tripadvisor.com/Restaurant_Review-g293736-d11783615-Reviews-Le_dix_sept-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",6,"$$ - $$$"
+300,"Restaurant Iceberg snacking","https://www.tripadvisor.com/Restaurant_Review-g293736-d8341683-Reviews-Restaurant_Iceberg_snacking-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",10,"$$ - $$$"
+301,"Vegvegan","https://www.tripadvisor.com/Restaurant_Review-g293736-d25273851-Reviews-Vegvegan-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,"$$$$"
+302,"Maroc Resto","https://www.tripadvisor.com/Restaurant_Review-g293736-d10286973-Reviews-Maroc_Resto-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,NULL
+303,"Apricot","https://www.tripadvisor.com/Restaurant_Review-g293736-d27475324-Reviews-Apricot-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",3,NULL
+304,"Couvert D'or","https://www.tripadvisor.com/Restaurant_Review-g293736-d12272273-Reviews-Couvert_D_or-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",2,"$"
+305,"Vittoria","https://www.tripadvisor.com/Restaurant_Review-g293736-d6405287-Reviews-Vittoria-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",3,NULL
+306,"Italia","https://www.tripadvisor.com/Restaurant_Review-g293736-d10320751-Reviews-Italia-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",6,"$"
+307,"Restaurant Timar","https://www.tripadvisor.com/Restaurant_Review-g293736-d23938044-Reviews-Restaurant_Timar-Rabat_Rabat_Sale_Kenitra.html","https://www.facebook.com/restaurant.TIMAR/menu/","0",0,"$$$$"
+308,"Villarrica Grill","https://www.tripadvisor.com/Restaurant_Review-g293736-d24923054-Reviews-Villarrica_Grill-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,NULL
+309,"Poulhe Cafe Pâtisserie","https://www.tripadvisor.com/Restaurant_Review-g293736-d19847198-Reviews-Poulhe_Cafe_Patisserie-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",3,"$"
+310,"Tacos de Paris","https://www.tripadvisor.com/Restaurant_Review-g293736-d14997658-Reviews-Tacos_de_Paris-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",3,"$"
+311,"Agha Acham","https://www.tripadvisor.com/Restaurant_Review-g293736-d27829153-Reviews-Agha_Acham-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+312,"Les Voyageurs","https://www.tripadvisor.com/Restaurant_Review-g293736-d25562411-Reviews-Les_Voyageurs-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",1,NULL
+313,"Felicita","https://www.tripadvisor.com/Restaurant_Review-g293736-d24154558-Reviews-Felicita-Rabat_Rabat_Sale_Kenitra.html",NULL,"1",1,NULL
+314,"Capital Grill","https://www.tripadvisor.com/Restaurant_Review-g293736-d17614546-Reviews-Capital_Grill-Rabat_Rabat_Sale_Kenitra.html","http://www.capitalgrill.ma#food-menu","5",2,NULL
+315,"Traiteur Berrada","https://www.tripadvisor.com/Restaurant_Review-g293736-d12159076-Reviews-Traiteur_Berrada-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",6,NULL
+316,"Buffet Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d26145840-Reviews-Buffet_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",2,NULL
+317,"Natulys","https://www.tripadvisor.com/Restaurant_Review-g293736-d10599568-Reviews-Natulys-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",4,"$$ - $$$"
+318,"Alfredo house","https://www.tripadvisor.com/Restaurant_Review-g293736-d23459298-Reviews-Alfredo_house-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",2,NULL
+319,"Cyrnoss","https://www.tripadvisor.com/Restaurant_Review-g293736-d13942459-Reviews-Cyrnoss-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",2,NULL
+320,"Food Roja & Negra","https://www.tripadvisor.com/Restaurant_Review-g293736-d10035247-Reviews-Food_Roja_Negra-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",2,"$"
+321,"Pine house","https://www.tripadvisor.com/Restaurant_Review-g293736-d15379892-Reviews-Pine_house-Rabat_Rabat_Sale_Kenitra.html","https://www.facebook.com/pinehouseresto/menu/","3",3,"$$ - $$$"
+322,"Blend Gourmet Burger Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d15087374-Reviews-Blend_Gourmet_Burger_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"2.5",25,"$$ - $$$"
+323,"Burger King - Arribat Center","https://www.tripadvisor.com/Restaurant_Review-g293736-d21295378-Reviews-Burger_King_Arribat_Center-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,"$"
+324,"Le Rivage Palace","https://www.tripadvisor.com/Restaurant_Review-g293736-d28190248-Reviews-Le_Rivage_Palace-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,NULL
+325,"Paul","https://www.tripadvisor.com/Restaurant_Review-g293736-d12945154-Reviews-Paul-Rabat_Rabat_Sale_Kenitra.html",NULL,"2.5",15,NULL
+326,"Restaurant 21","https://www.tripadvisor.com/Restaurant_Review-g293736-d12131135-Reviews-Restaurant_21-Rabat_Rabat_Sale_Kenitra.html",NULL,"2.5",5,NULL
+327,"L'Avant Goût","https://www.tripadvisor.com/Restaurant_Review-g293736-d7113268-Reviews-L_Avant_Gout-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",36,"$"
+328,"Le Puzzle","https://www.tripadvisor.com/Restaurant_Review-g293736-d8726921-Reviews-Le_Puzzle-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",3,"$$ - $$$"
+329,"Restaurant Grillade Adil","https://www.tripadvisor.com/Restaurant_Review-g293736-d4285318-Reviews-Restaurant_Grillade_Adil-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",31,"$"
+330,"Paros","https://www.tripadvisor.com/Restaurant_Review-g293736-d26819762-Reviews-Paros-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",1,NULL
+331,"Karavan Turkish Cafe","https://www.tripadvisor.com/Restaurant_Review-g293736-d8329296-Reviews-Karavan_Turkish_Cafe-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,NULL
+332,"La Grilladière","https://www.tripadvisor.com/Restaurant_Review-g293736-d13351286-Reviews-La_Grilladiere-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",4,NULL
+333,"Trio d'Or Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d26433718-Reviews-Trio_d_Or_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"1.5",2,NULL
+334,"Ci Gusta","https://www.tripadvisor.com/Restaurant_Review-g293736-d10962162-Reviews-Ci_Gusta-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",10,"$"
+335,"Snack Pesca del Mar","https://www.tripadvisor.com/Restaurant_Review-g293736-d11672754-Reviews-Snack_Pesca_del_Mar-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",2,NULL
+336,"Le Bec D'argent","https://www.tripadvisor.com/Restaurant_Review-g293736-d12988794-Reviews-Le_Bec_D_argent-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",2,"$$ - $$$"
+337,"Finzi Menti","https://www.tripadvisor.com/Restaurant_Review-g293736-d3483463-Reviews-Finzi_Menti-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",36,"$$ - $$$"
+338,"Le Sensya","https://www.tripadvisor.com/Restaurant_Review-g293736-d19393430-Reviews-Le_Sensya-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",2,NULL
+339,"M Chef Maroc","https://www.tripadvisor.com/Restaurant_Review-g293736-d17440748-Reviews-M_Chef_Maroc-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,"$"
+340,"Good Way Snack Restaurant Café","https://www.tripadvisor.com/Restaurant_Review-g293736-d27784141-Reviews-Good_Way_Snack_Restaurant_Cafe-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+341,"Hma Palace","https://www.tripadvisor.com/Restaurant_Review-g293736-d24166260-Reviews-Hma_Palace-Rabat_Rabat_Sale_Kenitra.html","https://www.facebook.com/hmapalacerabat/menu","3",2,NULL
+342,"Amorino","https://www.tripadvisor.com/Restaurant_Review-g293736-d14938606-Reviews-Amorino-Rabat_Rabat_Sale_Kenitra.html",NULL,"2",13,"$$ - $$$"
+343,"La Creperia","https://www.tripadvisor.com/Restaurant_Review-g293736-d27977837-Reviews-La_Creperia-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+344,"Chez Maxi","https://www.tripadvisor.com/Restaurant_Review-g293736-d6475489-Reviews-Chez_Maxi-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",7,"$$ - $$$"
+345,"VOGUE RESTAURANT","https://www.tripadvisor.com/Restaurant_Review-g293736-d6665506-Reviews-VOGUE_RESTAURANT-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",5,NULL
+346,"Snack Boukana","https://www.tripadvisor.com/Restaurant_Review-g293736-d23933972-Reviews-Snack_Boukana-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+347,"Le Maitre du Liban","https://www.tripadvisor.com/Restaurant_Review-g293736-d17724858-Reviews-Le_Maitre_du_Liban-Rabat_Rabat_Sale_Kenitra.html",NULL,"2",6,"$$ - $$$"
+348,"MySushi","https://www.tripadvisor.com/Restaurant_Review-g293736-d14800734-Reviews-MySushi-Rabat_Rabat_Sale_Kenitra.html","https://mysushi.ma/#menu","3",9,"$$ - $$$"
+349,"le Tarboosh","https://www.tripadvisor.com/Restaurant_Review-g293736-d4403623-Reviews-Le_Tarboosh-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+350,"Panda","https://www.tripadvisor.com/Restaurant_Review-g293736-d25316593-Reviews-Panda-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+351,"Pizza Hut - Agdal","https://www.tripadvisor.com/Restaurant_Review-g293736-d7656132-Reviews-Pizza_Hut_Agdal-Rabat_Rabat_Sale_Kenitra.html",NULL,"2.5",23,"$"
+352,"Connect Cafe","https://www.tripadvisor.com/Restaurant_Review-g293736-d13565653-Reviews-Connect_Cafe-Rabat_Rabat_Sale_Kenitra.html",NULL,"2.5",4,"$"
+353,"L'artisserie","https://www.tripadvisor.com/Restaurant_Review-g293736-d27979131-Reviews-L_artisserie-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",1,NULL
+354,"Yalanji","https://www.tripadvisor.com/Restaurant_Review-g293736-d23567808-Reviews-Yalanji-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",1,NULL
+355,"Café Restaurant Les Artistes","https://www.tripadvisor.com/Restaurant_Review-g293736-d16813780-Reviews-Cafe_Restaurant_Les_Artistes-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$"
+356,"Kuma","https://www.tripadvisor.com/Restaurant_Review-g293736-d27127917-Reviews-Kuma-Rabat_Rabat_Sale_Kenitra.html",NULL,"1",1,NULL
+357,"Tacos de Mexico","https://www.tripadvisor.com/Restaurant_Review-g293736-d13076158-Reviews-Tacos_de_Mexico-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",4,"$"
+358,"Rond Point","https://www.tripadvisor.com/Restaurant_Review-g293736-d7623681-Reviews-Rond_Point-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",4,NULL
+359,"Cafe Barbera","https://www.tripadvisor.com/Restaurant_Review-g293736-d18964732-Reviews-Cafe_Barbera-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",9,"$"
+360,"Olivieri","https://www.tripadvisor.com/Restaurant_Review-g293736-d13076185-Reviews-Olivieri-Rabat_Rabat_Sale_Kenitra.html",NULL,"3.5",10,"$$ - $$$"
+361,"Mawaid Chabab","https://www.tripadvisor.com/Restaurant_Review-g293736-d18843461-Reviews-Mawaid_Chabab-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",1,NULL
+362,"Gossip Art Cafe","https://www.tripadvisor.com/Restaurant_Review-g293736-d4068465-Reviews-Gossip_Art_Cafe-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",10,NULL
+363,"Val Iris","https://www.tripadvisor.com/Restaurant_Review-g293736-d20912635-Reviews-Val_Iris-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,NULL
+364,"Pizza Giovale","https://www.tripadvisor.com/Restaurant_Review-g293736-d23636567-Reviews-Pizza_Giovale-Rabat_Rabat_Sale_Kenitra.html","https://pizza-giovale.business.site/#menu","2.5",4,NULL
+365,"La Italiana","https://www.tripadvisor.com/Restaurant_Review-g293736-d1604901-Reviews-La_Italiana-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",17,"$$ - $$$"
+366,"Mondolini","https://www.tripadvisor.com/Restaurant_Review-g293736-d13350879-Reviews-Mondolini-Rabat_Rabat_Sale_Kenitra.html",NULL,"2",2,NULL
+367,"Classico","https://www.tripadvisor.com/Restaurant_Review-g293736-d5598275-Reviews-Classico-Rabat_Rabat_Sale_Kenitra.html",NULL,"2.5",3,NULL
+368,"Taco Plus","https://www.tripadvisor.com/Restaurant_Review-g293736-d24137171-Reviews-Taco_Plus-Rabat_Rabat_Sale_Kenitra.html","https://tacoplus.ola.click/products","0",0,NULL
+369,"Cafe Sourire","https://www.tripadvisor.com/Restaurant_Review-g293736-d19683549-Reviews-Cafe_Sourire-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$"
+370,"Chaplin Crêpes Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d28107152-Reviews-Chaplin_Crepes_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+371,"Kfc","https://www.tripadvisor.com/Restaurant_Review-g293736-d8466731-Reviews-Kfc-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",4,"$"
+372,"L'italien","https://www.tripadvisor.com/Restaurant_Review-g293736-d23540641-Reviews-L_italien-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+373,"Graines & Passion","https://www.tripadvisor.com/Restaurant_Review-g293736-d17819701-Reviews-Graines_Passion-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$$$$"
+374,"Food Shop","https://www.tripadvisor.com/Restaurant_Review-g293736-d10588208-Reviews-Food_Shop-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,NULL
+375,"Savarin - Café, Restaurant, Patisserie","https://www.tripadvisor.com/Restaurant_Review-g293736-d12904320-Reviews-Savarin_Cafe_Restaurant_Patisserie-Rabat_Rabat_Sale_Kenitra.html",NULL,"4.5",2,NULL
+376,"G-food","https://www.tripadvisor.com/Restaurant_Review-g293736-d23032099-Reviews-G_food-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$"
+377,"Konafa House","https://www.tripadvisor.com/Restaurant_Review-g293736-d24132553-Reviews-Konafa_House-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+378,"seven louge","https://www.tripadvisor.com/Restaurant_Review-g293736-d967448-Reviews-Seven_louge-Rabat_Rabat_Sale_Kenitra.html",NULL,"4",1,NULL
+379,"World Burger","https://www.tripadvisor.com/Restaurant_Review-g293736-d23540644-Reviews-World_Burger-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+380,"Point de rencontre","https://www.tripadvisor.com/Restaurant_Review-g293736-d16755983-Reviews-Point_de_rencontre-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+381,"Dar Shiwate Café Souissi Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d10485527-Reviews-Dar_Shiwate_Cafe_Souissi_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$$$$"
+382,"Les Deux Chefs","https://www.tripadvisor.com/Restaurant_Review-g293736-d24980231-Reviews-Les_Deux_Chefs-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+383,"Ogarden","https://www.tripadvisor.com/Restaurant_Review-g293736-d23897482-Reviews-Ogarden-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+384,"Tacos de Paris","https://www.tripadvisor.com/Restaurant_Review-g293736-d14997611-Reviews-Tacos_de_Paris-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$"
+385,"The Kitch","https://www.tripadvisor.com/Restaurant_Review-g293736-d28879686-Reviews-The_Kitch-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+386,"Starbucks","https://www.tripadvisor.com/Restaurant_Review-g293736-d20806987-Reviews-Starbucks-Rabat_Rabat_Sale_Kenitra.html",NULL,"2",6,"$$ - $$$"
+387,"Allo Beirut Cuisine Libanaise","https://www.tripadvisor.com/Restaurant_Review-g293736-d13996355-Reviews-Allo_Beirut_Cuisine_Libanaise-Rabat_Rabat_Sale_Kenitra.html","http://www.allobeirutcuisine.com#menu","2.5",8,"$$ - $$$"
+388,"Bewok","https://www.tripadvisor.com/Restaurant_Review-g293736-d15588358-Reviews-Bewok-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+389,"Coin Pécheur","https://www.tripadvisor.com/Restaurant_Review-g293736-d21369771-Reviews-Coin_Pecheur-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+390,"Formule it Arribat Center ","https://www.tripadvisor.com/Restaurant_Review-g293736-d25406063-Reviews-Formule_it_Arribat_Center-Rabat_Rabat_Sale_Kenitra.html",NULL,"1",1,NULL
+391,"Le Marocain By La Mamounia","https://www.tripadvisor.com/Restaurant_Review-g293736-d26370059-Reviews-Le_Marocain_By_La_Mamounia-Rabat_Rabat_Sale_Kenitra.html",NULL,"2",1,NULL
+392,"Café Cinéma Renaissance","https://www.tripadvisor.com/Restaurant_Review-g293736-d23575680-Reviews-Cafe_Cinema_Renaissance-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+393,"Pitate Pizza & Pâtes | Pizza Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d29932219-Reviews-Pitate_Pizza_Pates_Pizza_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+394,"Standard Club","https://www.tripadvisor.com/Restaurant_Review-g293736-d7282975-Reviews-Standard_Club-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+395,"Zumba snack à jus hassan ","https://www.tripadvisor.com/Restaurant_Review-g293736-d26518500-Reviews-Zumba_snack_a_jus_hassan-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+396,"El Bayt Eldimashki","https://www.tripadvisor.com/Restaurant_Review-g293736-d28779913-Reviews-El_Bayt_Eldimashki-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+397,"Fast Wok","https://www.tripadvisor.com/Restaurant_Review-g293736-d13569329-Reviews-Fast_Wok-Rabat_Rabat_Sale_Kenitra.html","http://fast-wok-43.webself.net/menu","0",0,"$"
+398,"Emy Ice Rolls","https://www.tripadvisor.com/Restaurant_Review-g293736-d17741728-Reviews-Emy_Ice_Rolls-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$"
+399,"Restaurant Chez Les Filles De Lhaja","https://www.tripadvisor.com/Restaurant_Review-g293736-d28668745-Reviews-Restaurant_Chez_Les_Filles_De_Lhaja-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+400,"Indian Flavors","https://www.tripadvisor.com/Restaurant_Review-g293736-d27806814-Reviews-Indian_Flavors-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+401,"Hoya Bella Café","https://www.tripadvisor.com/Restaurant_Review-g293736-d27974596-Reviews-Hoya_Bella_Cafe-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+402,"Rôtisserie Côte à Côte","https://www.tripadvisor.com/Restaurant_Review-g293736-d13126870-Reviews-Rotisserie_Cote_a_Cote-Rabat_Rabat_Sale_Kenitra.html",NULL,"5",1,NULL
+403,"Nostalgia Moroccan Restaurant and Grill","https://www.tripadvisor.com/Restaurant_Review-g293736-d26240768-Reviews-Nostalgia_Moroccan_Restaurant_and_Grill-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+404,"Legende De Gout","https://www.tripadvisor.com/Restaurant_Review-g293736-d23533330-Reviews-Legende_De_Gout-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+405,"Fresh time chicken","https://www.tripadvisor.com/Restaurant_Review-g293736-d15219818-Reviews-Fresh_time_chicken-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+406,"Mamiz Urban Grill","https://www.tripadvisor.com/Restaurant_Review-g293736-d25575507-Reviews-Mamiz_Urban_Grill-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+407,"Domino's Pizza","https://www.tripadvisor.com/Restaurant_Review-g293736-d12925934-Reviews-Domino_s_Pizza-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",3,NULL
+408,"Restaurant Couvert d'Or","https://www.tripadvisor.com/Restaurant_Review-g293736-d25394782-Reviews-Restaurant_Couvert_d_Or-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+409,"La Brise","https://www.tripadvisor.com/Restaurant_Review-g293736-d25251967-Reviews-La_Brise-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+410,"Sushi Tokyo","https://www.tripadvisor.com/Restaurant_Review-g293736-d15607522-Reviews-Sushi_Tokyo-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$"
+411,"Fist Pizza","https://www.tripadvisor.com/Restaurant_Review-g293736-d17781390-Reviews-Fist_Pizza-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+412,"Ebenia","https://www.tripadvisor.com/Restaurant_Review-g293736-d8116306-Reviews-Ebenia-Rabat_Rabat_Sale_Kenitra.html",NULL,"3",1,NULL
+413,"Heure Benefique","https://www.tripadvisor.com/Restaurant_Review-g293736-d10794579-Reviews-Heure_Benefique-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$"
+414,"Eat what We Eat","https://www.tripadvisor.com/Restaurant_Review-g293736-d13946082-Reviews-Eat_what_We_Eat-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$$ - $$$"
+415,"Café Tout Va Bien","https://www.tripadvisor.com/Restaurant_Review-g293736-d14406943-Reviews-Cafe_Tout_Va_Bien-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$"
+416,"Goodies","https://www.tripadvisor.com/Restaurant_Review-g293736-d15760102-Reviews-Goodies-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$"
+417,"Dar Keltoum","https://www.tripadvisor.com/Restaurant_Review-g293736-d27140070-Reviews-Dar_Keltoum-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+418,"O' Douceurs","https://www.tripadvisor.com/Restaurant_Review-g293736-d19393373-Reviews-O_Douceurs-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+419,"Papa Poule Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d19086993-Reviews-Papa_Poule_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$"
+420,"O'select","https://www.tripadvisor.com/Restaurant_Review-g293736-d15104970-Reviews-O_select-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+421,"Pomme de Pain","https://www.tripadvisor.com/Restaurant_Review-g293736-d13995588-Reviews-Pomme_de_Pain-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$"
+422,"Restaurant Castel","https://www.tripadvisor.com/Restaurant_Review-g293736-d26224354-Reviews-Restaurant_Castel-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+423,"Lekebab.ma","https://www.tripadvisor.com/Restaurant_Review-g293736-d26497191-Reviews-Lekebab_ma-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+424,"Voila","https://www.tripadvisor.com/Restaurant_Review-g293736-d21508397-Reviews-Voila-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$"
+425,"Atlas Chicken Hay Riad","https://www.tripadvisor.com/Restaurant_Review-g293736-d21352806-Reviews-Atlas_Chicken_Hay_Riad-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$"
+426,"Mood'z","https://www.tripadvisor.com/Restaurant_Review-g293736-d17839300-Reviews-Mood_z-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$"
+427,"Snack de Paris","https://www.tripadvisor.com/Restaurant_Review-g293736-d26829177-Reviews-Snack_de_Paris-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+428,"Restaurant Lazane","https://www.tripadvisor.com/Restaurant_Review-g293736-d24878299-Reviews-Restaurant_Lazane-Rabat_Rabat_Sale_Kenitra.html","https://web.facebook.com/restaurantlazane/menu","0",0,NULL
+429,"Lemedinarabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d22953763-Reviews-Lemedinarabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+430,"Bnin O'zwin","https://www.tripadvisor.com/Restaurant_Review-g293736-d25086621-Reviews-Bnin_O_zwin-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+431,"S-Tacos","https://www.tripadvisor.com/Restaurant_Review-g293736-d26579823-Reviews-S_Tacos-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+432,"Blue Berry","https://www.tripadvisor.com/Restaurant_Review-g293736-d28030598-Reviews-Blue_Berry-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+433,"Restaurant Chez Nabila","https://www.tripadvisor.com/Restaurant_Review-g293736-d23415895-Reviews-Restaurant_Chez_Nabila-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+434,"Havana Restaurant Lounge Bar","https://www.tripadvisor.com/Restaurant_Review-g293736-d28108644-Reviews-Havana_Restaurant_Lounge_Bar-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+435,"Restaurant Poisson du sud","https://www.tripadvisor.com/Restaurant_Review-g293736-d14201541-Reviews-Restaurant_Poisson_du_sud-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+436,"Pine House Maroc","https://www.tripadvisor.com/Restaurant_Review-g293736-d23817924-Reviews-Pine_House_Maroc-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+437,"Patchwork","https://www.tripadvisor.com/Restaurant_Review-g293736-d18153863-Reviews-Patchwork-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+438,"Restaurant Chez Nabila","https://www.tripadvisor.com/Restaurant_Review-g293736-d23416589-Reviews-Restaurant_Chez_Nabila-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+439,"Flamme","https://www.tripadvisor.com/Restaurant_Review-g293736-d28667622-Reviews-Flamme-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+440,"Good Way Cafe Restaurant Snack","https://www.tripadvisor.com/Restaurant_Review-g293736-d27784128-Reviews-Good_Way_Cafe_Restaurant_Snack-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+441,"Blueberry","https://www.tripadvisor.com/Restaurant_Review-g293736-d28031840-Reviews-Blueberry-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+442,"MakeYourPizza","https://www.tripadvisor.com/Restaurant_Review-g293736-d14154526-Reviews-MakeYourPizza-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,"$$ - $$$"
+443,"Val Iris","https://www.tripadvisor.com/Restaurant_Review-g293736-d20912634-Reviews-Val_Iris-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+444,"Starbucks","https://www.tripadvisor.com/Restaurant_Review-g293736-d21000358-Reviews-Starbucks-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+445,"Starbucks","https://www.tripadvisor.com/Restaurant_Review-g293736-d20806990-Reviews-Starbucks-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+446,"We Do Burgers","https://www.tripadvisor.com/Restaurant_Review-g293736-d26860470-Reviews-We_Do_Burgers-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+447,"Fish’n Mokha","https://www.tripadvisor.com/Restaurant_Review-g293736-d23853352-Reviews-Fish_n_Mokha-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+448,"Mogi","https://www.tripadvisor.com/Restaurant_Review-g293736-d20150096-Reviews-Mogi-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+449,"Ritorante Finzi Ryad","https://www.tripadvisor.com/Restaurant_Review-g293736-d10172303-Reviews-Ritorante_Finzi_Ryad-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
+450,"La Casita de Rabat","https://www.tripadvisor.com/Restaurant_Review-g293736-d17420303-Reviews-La_Casita_de_Rabat-Rabat_Rabat_Sale_Kenitra.html",NULL,"0",0,NULL
