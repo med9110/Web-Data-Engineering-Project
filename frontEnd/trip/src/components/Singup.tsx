@@ -7,32 +7,15 @@ type signupProp = {
 };
 
 const SignUp = (props: signupProp) => {
-  // State for form input
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [age, setAge] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-  const [preferenceInput, setPreferenceInput] = useState("");
-  const [preferences, setPreferences] = useState<string[]>([]);
+  const [role, setRole] = useState("Traveler"); // Default role
 
-  // Handle adding a preference
-  const handleAddPreference = () => {
-    if (preferenceInput.trim() !== "") {
-      setPreferences([...preferences, preferenceInput.trim()]);
-      setPreferenceInput("");
-    }
-  };
-
-  // Handle removing a preference
-  const handleRemovePreference = (index: number) => {
-    setPreferences(preferences.filter((_, i) => i !== index));
-  };
-
-  // Handle sign-up submission
   const handleSignup = async () => {
-    // Example validation (you can enhance this later)
-    if (!name || !email || !age || !password || !confirmPassword) {
+    if (!name || !email || !age || !password || !confirmPassword || !role) {
       console.error("All fields are required");
       return;
     }
@@ -45,13 +28,12 @@ const SignUp = (props: signupProp) => {
       return;
     }
 
-    // Prepare the data to be sent to the backend
     const userData = {
       name,
       email,
       age,
       password,
-      preferences,
+      role,
     };
 
     try {
@@ -73,7 +55,6 @@ const SignUp = (props: signupProp) => {
       const result = await response.json();
       console.log("User signed up successfully:", result);
 
-      // Close the popup after successful sign-up
       props.setSignupPopup(false);
     } catch (error) {
       console.error("Error signing up:", error);
@@ -139,35 +120,15 @@ const SignUp = (props: signupProp) => {
                     className="w-full p-3 rounded-full border mt-2"
                   />
                 </div>
-                <div className="mt-3 flex">
-                  <input
-                    type="text"
-                    placeholder="Add Preference"
-                    value={preferenceInput}
-                    onChange={(e) => setPreferenceInput(e.target.value)}
-                    className="flex-1 p-3 rounded-full border mt-2"
-                  />
-                  <button
-                    type="button"
-                    onClick={handleAddPreference}
-                    className="ml-2 px-4 py-2 bg-green-500 text-white rounded-full hover:bg-green-600 transition ease-in-out duration-300 mt-2"
-                  >
-                    Add Preference
-                  </button>
-                </div>
                 <div className="mt-3">
-                  {preferences.map((preference, index) => (
-                    <div key={index} className="flex items-center justify-between p-2 border rounded-md mt-2">
-                      <span>{preference}</span>
-                      <button
-                        type="button"
-                        onClick={() => handleRemovePreference(index)}
-                        className="text-red-500 hover:text-red-700 transition ease-in-out duration-300"
-                      >
-                        Remove
-                      </button>
-                    </div>
-                  ))}
+                  <select
+                    value={role}
+                    onChange={(e) => setRole(e.target.value)}
+                    className="w-full p-3 rounded-full border mt-2"
+                  >
+                    <option value="Traveler">Traveler</option>
+                    <option value="Owner">Owner</option>
+                  </select>
                 </div>
                 <button
                   onClick={handleSignup}

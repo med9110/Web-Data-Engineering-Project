@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { jwtDecode } from "jwt-decode"; // Named import
 import logo from "../assets/logo.png";
+import ForgotPassword from "./ForgotPassword"; // Import ForgotPassword component
 
 type signinProp = {
   setSigninPopup: React.Dispatch<React.SetStateAction<boolean>>;
@@ -12,6 +13,7 @@ const Signin = (props: signinProp) => {
   const [passwordInput, setPasswordInput] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false); // To handle loading state
+  const [isForgotPassword, setIsForgotPassword] = useState(false); // State to toggle Forgot Password view
 
   type DecodedToken = {
     claims: {
@@ -90,29 +92,48 @@ const Signin = (props: signinProp) => {
                   <br /> best of TripRecommender.
                 </h1>
                 {errorMessage && <p className="text-red-500 mt-2">{errorMessage}</p>}
-                <div className="mt-3">
-                  <input
-                    type="email"
-                    placeholder="Email"
-                    value={emailInput}
-                    onChange={(e) => setEmailInput(e.target.value)}
-                    className="w-full p-3 rounded-full border mt-2"
-                  />
-                  <input
-                    type="password"
-                    placeholder="Password"
-                    value={passwordInput}
-                    onChange={(e) => setPasswordInput(e.target.value)}
-                    className="w-full p-3 rounded-full border mt-2"
-                  />
-                  <button
-                    onClick={handleSignin}
-                    disabled={isSubmitting}
-                    className="w-full mt-4 bg-black text-white rounded-full py-3"
-                  >
-                    {isSubmitting ? "Signing In..." : "Sign In"}
-                  </button>
-                </div>
+
+                {/* Conditionally render ForgotPassword or Signin */}
+                {!isForgotPassword ? (
+                  <>
+                    <div className="mt-3">
+                      <input
+                        type="email"
+                        placeholder="Email"
+                        value={emailInput}
+                        onChange={(e) => setEmailInput(e.target.value)}
+                        className="w-full p-3 rounded-full border mt-2"
+                      />
+                      <input
+                        type="password"
+                        placeholder="Password"
+                        value={passwordInput}
+                        onChange={(e) => setPasswordInput(e.target.value)}
+                        className="w-full p-3 rounded-full border mt-2"
+                      />
+                      <button
+                        onClick={handleSignin}
+                        disabled={isSubmitting}
+                        className="w-full mt-4 bg-black text-white rounded-full py-3"
+                      >
+                        {isSubmitting ? "Signing In..." : "Sign In"}
+                      </button>
+                    </div>
+
+                    {/* Forgot Password Link */}
+                    <div className="text-center mt-3">
+                      <button
+                        onClick={() => setIsForgotPassword(true)}
+                        className="text-blue-500 hover:underline"
+                      >
+                        Forgot Password?
+                      </button>
+                    </div>
+                  </>
+                ) : (
+                  <ForgotPassword setIsForgotPassword={setIsForgotPassword} />
+                )}
+
                 <h1 className="text-center mt-36">
                   By proceeding, you agree to our Terms of Use and confirm you have read our Privacy and Cookie Statement.
                 </h1>

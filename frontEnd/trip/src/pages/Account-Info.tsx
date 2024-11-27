@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
+import Navbar from "../components/Navbar"; // Import Navbar here
+import { useNavigate } from "react-router-dom";
 
 const AccountInfo = () => {
   const [userInfo, setUserInfo] = useState({
-    fullName: "",
+    firstName: "",
+    lastName: "",
     age: "",
     email: "",
     preference1: "",
@@ -11,7 +14,6 @@ const AccountInfo = () => {
   });
 
   useEffect(() => {
-    // Fetch user info from the backend
     const fetchUserInfo = async () => {
       try {
         const response = await fetch("http://127.0.0.1:8000/user-info", {
@@ -59,76 +61,132 @@ const AccountInfo = () => {
   };
 
   return (
-    <div className="max-w-3xl mx-auto p-5">
-      <h2 className="text-2xl font-bold mb-4">Account Info</h2>
-      <form onSubmit={handleSubmit}>
-        <div className="mb-4">
-          <label className="block text-gray-700">Full Name</label>
-          <input
-            type="text"
-            name="fullName"
-            value={userInfo.fullName}
-            onChange={handleChange}
-            className="w-full p-2 border border-gray-300 rounded-md"
-          />
+    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+      <Navbar setIsAuthenticated={() => {}} isAuthenticated={true} /> {/* Pass actual props for Navbar */}
+
+      <div className="container mx-auto px-4 py-16 sm:px-6 lg:px-8">
+        <div className="text-center space-y-4 mb-12">
+          <h1 className="text-4xl font-bold text-gray-800">Update Your Account Information</h1>
+          <p className="text-lg text-gray-600">Keep your profile updated for better recommendations and experiences.</p>
         </div>
-        <div className="mb-4">
-          <label className="block text-gray-700">Age</label>
-          <input
-            type="number"
-            name="age"
-            value={userInfo.age}
-            onChange={handleChange}
-            className="w-full p-2 border border-gray-300 rounded-md"
-          />
+
+        <div className="max-w-4xl mx-auto bg-white p-8 rounded-xl shadow-xl">
+          <form onSubmit={handleSubmit} className="space-y-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div>
+                <label htmlFor="firstName" className="block text-lg font-medium text-gray-700">
+                  First Name
+                </label>
+                <input
+                  type="text"
+                  name="firstName"
+                  value={userInfo.firstName}
+                  onChange={handleChange}
+                  placeholder="Enter your first name"
+                  className="w-full p-4 mt-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+              <div>
+                <label htmlFor="lastName" className="block text-lg font-medium text-gray-700">
+                  Last Name
+                </label>
+                <input
+                  type="text"
+                  name="lastName"
+                  value={userInfo.lastName}
+                  onChange={handleChange}
+                  placeholder="Enter your last name"
+                  className="w-full p-4 mt-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div>
+                <label htmlFor="age" className="block text-lg font-medium text-gray-700">
+                  Age
+                </label>
+                <input
+                  type="number"
+                  name="age"
+                  value={userInfo.age}
+                  onChange={handleChange}
+                  placeholder="Enter your age"
+                  className="w-full p-4 mt-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+              <div>
+                <label htmlFor="email" className="block text-lg font-medium text-gray-700">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  name="email"
+                  value={userInfo.email}
+                  onChange={handleChange}
+                  placeholder="Enter your email"
+                  className="w-full p-4 mt-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+            </div>
+
+            <div className="space-y-6">
+              <div>
+                <label htmlFor="preference1" className="block text-lg font-medium text-gray-700">
+                  Preference 1
+                </label>
+                <input
+                  type="text"
+                  name="preference1"
+                  value={userInfo.preference1}
+                  onChange={handleChange}
+                  placeholder="Enter your first preference"
+                  className="w-full p-4 mt-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+              <div>
+                <label htmlFor="preference2" className="block text-lg font-medium text-gray-700">
+                  Preference 2
+                </label>
+                <input
+                  type="text"
+                  name="preference2"
+                  value={userInfo.preference2}
+                  onChange={handleChange}
+                  placeholder="Enter your second preference"
+                  className="w-full p-4 mt-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+              <div>
+                <label htmlFor="preference3" className="block text-lg font-medium text-gray-700">
+                  Preference 3
+                </label>
+                <input
+                  type="text"
+                  name="preference3"
+                  value={userInfo.preference3}
+                  onChange={handleChange}
+                  placeholder="Enter your third preference"
+                  className="w-full p-4 mt-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+            </div>
+
+            <button
+              type="submit"
+              className="w-full mt-6 bg-black text-white p-4 rounded-lg focus:outline-none hover:bg-gray-800 transition duration-300"
+            >
+              Update Info
+            </button>
+          </form>
+
+          <div className="text-center mt-8">
+            <p className="text-sm text-gray-600">
+              By updating, you agree to our <a href="#" className="text-blue-500">Terms of Use</a> and <a href="#" className="text-blue-500">Privacy Policy</a>.
+            </p>
+          </div>
         </div>
-        <div className="mb-4">
-          <label className="block text-gray-700">Email</label>
-          <input
-            type="email"
-            name="email"
-            value={userInfo.email}
-            onChange={handleChange}
-            className="w-full p-2 border border-gray-300 rounded-md"
-          />
-        </div>
-        <div className="mb-4">
-          <label className="block text-gray-700">Preference 1</label>
-          <input
-            type="text"
-            name="preference1"
-            value={userInfo.preference1}
-            onChange={handleChange}
-            className="w-full p-2 border border-gray-300 rounded-md"
-          />
-        </div>
-        <div className="mb-4">
-          <label className="block text-gray-700">Preference 2</label>
-          <input
-            type="text"
-            name="preference2"
-            value={userInfo.preference2}
-            onChange={handleChange}
-            className="w-full p-2 border border-gray-300 rounded-md"
-          />
-        </div>
-        <div className="mb-4">
-          <label className="block text-gray-700">Preference 3</label>
-          <input
-            type="text"
-            name="preference3"
-            value={userInfo.preference3}
-            onChange={handleChange}
-            className="w-full p-2 border border-gray-300 rounded-md"
-          />
-        </div>
-        <button
-          type="submit"
-          className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
-        >
-          Update Info
-        </button>
-      </form>
+      </div>
     </div>
   );
 };
