@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { jwtDecode } from "jwt-decode"; // Named import
+import { jwtDecode } from "jwt-decode";
 import logo from "../assets/logo.png";
-import ForgotPassword from "./ForgotPassword"; // Import ForgotPassword component
+import ForgotPassword from "./ForgotPassword";
 
 type signinProp = {
   setSigninPopup: React.Dispatch<React.SetStateAction<boolean>>;
@@ -12,8 +12,8 @@ const Signin = (props: signinProp) => {
   const [emailInput, setEmailInput] = useState("");
   const [passwordInput, setPasswordInput] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
-  const [isSubmitting, setIsSubmitting] = useState(false); // To handle loading state
-  const [isForgotPassword, setIsForgotPassword] = useState(false); // State to toggle Forgot Password view
+  const [isSubmitting, setIsSubmitting] = useState(false); 
+  const [isForgotPassword, setIsForgotPassword] = useState(false); 
 
   type DecodedToken = {
     claims: {
@@ -27,7 +27,7 @@ const Signin = (props: signinProp) => {
       return;
     }
 
-    setIsSubmitting(true); // Disable button during request
+    setIsSubmitting(true); 
 
     try {
       const response = await fetch("http://127.0.0.1:8080/auth/login/users", {
@@ -36,7 +36,7 @@ const Signin = (props: signinProp) => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          username: emailInput, // Backend expects "username" for email
+          username: emailInput, 
           password: passwordInput,
         }),
       });
@@ -51,13 +51,13 @@ const Signin = (props: signinProp) => {
       if (token) {
         localStorage.setItem("authToken", token);
 
-        // Decode JWT token (if needed)
+       
         const decoded: DecodedToken = jwtDecode(token);
         console.log("Decoded Token:", decoded);
 
-        // Update the authentication state
+        
         props.setIsAuthenticated(true);
-        props.setSigninPopup(false); // Close the sign-in popup
+        props.setSigninPopup(false); 
       } else {
         setErrorMessage("Token not found in response.");
       }
@@ -65,7 +65,7 @@ const Signin = (props: signinProp) => {
       console.error("Error logging in:", error);
       setErrorMessage("An error occurred. Please try again.");
     } finally {
-      setIsSubmitting(false); // Re-enable button
+      setIsSubmitting(false);
     }
   };
 

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate hook
 import Navbar from "./Navbar";
 import Menubar from "./Menubar";
 import Home from "./Home";
@@ -21,29 +22,46 @@ const Main = () => {
   const [checkIn, setCheckIn] = useState("");
   const [checkOut, setCheckOut] = useState("");
   const [budget, setBudget] = useState(0);
+  const [preferences, setPreferences] = useState<string[]>([]);
   const [isAuthenticated, setIsAuthenticated] = useState(true);
-  const [userRole, setUserRole] = useState("Owner");
+  const [userRole, setUserRole] = useState("Travelere");
 
+  const navigate = useNavigate(); // Initialize useNavigate hook
+
+  // Effect to fetch user role based on auth token
   useEffect(() => {
     const token = localStorage.getItem("authToken");
     if (token) {
       setIsAuthenticated(true);
-      // try {
-      //   // Attempt to decode the JWT token
-      //   const base64Url = token.split('.')[1];
-      //   const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
-      //   const payload = JSON.parse(window.atob(base64));
-      //   setUserRole(payload.role || "User"); // Default to "User" if role is not present
-      // } catch (error) {
-      //   console.error("Error decoding token:", error);
-      //   // If token is invalid, reset authentication
-      //   setIsAuthenticated(false);
-      //   setUserRole("");
-      //   localStorage.removeItem("authToken");
-      // }
+      const fetchUserRole = async () => {
+        try {
+          const response = await fetch("http://127.0.0.1:8000/user-role", {
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },
+          });
+          if (!response.ok) {
+            throw new Error("Failed to fetch user role");
+          }
+          const data = await response.json();
+          setUserRole(data.role); // Assuming `data.role` contains the role
+        } catch (error) {
+          console.error("Error fetching user role:", error);
+        }
+      };
+
+      fetchUserRole();
     }
   }, []);
 
+  // Redirect the owner to reservations page
+  useEffect(() => {
+    if (isAuthenticated && userRole === "Owner") {
+      navigate("/reservations"); // Redirect to reservations page
+    }
+  }, [isAuthenticated, userRole, navigate]);
+
+  // Handle the search and fetch recommendations
   const handleSearch = async () => {
     if (!location || !checkIn || !checkOut || !budget) {
       alert("Please fill in all search parameters");
@@ -65,6 +83,7 @@ const Main = () => {
           check_in_date: checkIn,
           check_out_date: checkOut,
           budget,
+          preferences,
         }),
       });
 
@@ -83,16 +102,15 @@ const Main = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Navbar 
+      <Navbar
         setIsAuthenticated={setIsAuthenticated}
         isAuthenticated={isAuthenticated}
         userRole={userRole}
       />
-      
+
       <main className="container mx-auto px-4 py-8">
         {isAuthenticated ? (
           <div className="space-y-8">
-            {/* Show Menubar only for regular users */}
             {userRole !== "Owner" && (
               <Menubar
                 setLocation={setLocation}
@@ -100,18 +118,20 @@ const Main = () => {
                 setCheckOut={setCheckOut}
                 setBudget={setBudget}
                 onSearch={handleSearch}
+                preferences={preferences}
+                setPreferences={setPreferences}
               />
             )}
-            <Home 
-              trip={trip} 
-              isAuthenticated={isAuthenticated} 
+            <Home
+              trip={trip}
+              isAuthenticated={isAuthenticated}
               userRole={userRole}
             />
           </div>
         ) : (
-          <Home 
-            trip={trip} 
-            isAuthenticated={isAuthenticated} 
+          <Home
+            trip={trip}
+            isAuthenticated={isAuthenticated}
             userRole={userRole}
           />
         )}

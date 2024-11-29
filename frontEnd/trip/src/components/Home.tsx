@@ -53,16 +53,14 @@ const Home: React.FC<HomeProps> = ({ trip, isAuthenticated, userRole }) => {
   // If not authenticated, show login prompt
   if (!isAuthenticated) {
     return (
-      <div className="flex items-center justify-center min-h-screen relative bg-black/50">
-        <img
+      <div className="flex items-center justify-center min-h-screen relative overflow-hidden">
+      
+      <img
           src={lens}
           alt="Morocco"
           className="absolute inset-0 object-cover w-full h-full"
         />
-        <div className="relative z-10 text-center text-white p-5 bg-black/30 rounded-xl backdrop-blur-sm">
-          <h1 className="font-extrabold text-5xl mb-8">Welcome!</h1>
-          <p className="text-lg">Please sign in to view your trip details.</p>
-        </div>
+        
       </div>
     );
   }
