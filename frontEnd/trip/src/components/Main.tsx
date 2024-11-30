@@ -28,7 +28,7 @@ const Main = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
-  const [age, setAge] = useState("");
+  const [age, setAge] = useState<number>(0);
   const [loading, setLoading] = useState(false);
 
   const navigate = useNavigate(); // Initialize useNavigate hook
@@ -44,7 +44,7 @@ const Main = () => {
         try {
           const response = await fetch("http://127.0.0.1:8080/user/info", {
             headers: {
-              Authorization: `Bearer ${tokenInfo}`,
+              Authorization: `Bearer ${token}`,
             },
           });
           if (!response.ok) {
@@ -55,7 +55,7 @@ const Main = () => {
           setFirstName(data.firstname);
           setLastName(data.lastname);
           setEmail(data.email);
-          setAge(data.age);
+          setAge(Number(data.age));
         } catch (error) {
           console.error("Error fetching user information:", error);
         } finally {

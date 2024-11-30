@@ -18,9 +18,6 @@ const Navbar: React.FC<NavbarProps> = ({ setIsAuthenticated, isAuthenticated, us
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const navigate = useNavigate();
 
-  // Add console.log to debug
-  console.log("Current userRole:", userRole);
-
   const handleSignOut = () => {
     setIsAuthenticated(false);
     localStorage.removeItem("authToken");
@@ -30,7 +27,7 @@ const Navbar: React.FC<NavbarProps> = ({ setIsAuthenticated, isAuthenticated, us
   };
 
   // Define navigation links based on user role
-  const navigationLinks = userRole === "Owner" 
+  const navigationLinks = userRole === "OWNER" 
     ? [
         { to: "/reservations", text: "Reservations" },
         { to: "/properties", text: "Properties" },
