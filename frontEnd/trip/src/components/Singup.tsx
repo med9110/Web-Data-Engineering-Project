@@ -2,20 +2,22 @@ import { useState } from "react";
 import logo from "../assets/logo.png";
 import { validateEmail } from "../utils/validators";
 
-type signupProp = {
-  setSignupPopup: any;
+type SignupProps = {
+  setSignupPopup: (state: boolean) => void;
 };
 
-const SignUp = (props: signupProp) => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
+const SignUp = (props: SignupProps) => {
+  const [firstname, setFirstname] = useState("");
+  const [lastname, setLastname] = useState("");
+  const [email, setMail] = useState("");
   const [age, setAge] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-  const [role, setRole] = useState("Traveler"); // Default role
+  const [role, setRole] = useState(""); // Default role
 
   const handleSignup = async () => {
-    if (!name || !email || !age || !password || !confirmPassword || !role) {
+    // Validation
+    if (!firstname || !lastname || !email || !age || !password || !confirmPassword || !role) {
       console.error("All fields are required");
       return;
     }
@@ -28,16 +30,18 @@ const SignUp = (props: signupProp) => {
       return;
     }
 
+    // Prepare data for the backend
     const userData = {
-      name,
+      firstname,
+      lastname,
       email,
-      age,
+      age: parseInt(age), // Convert age to number if necessary
       password,
       role,
     };
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/signup", {
+      const response = await fetch("http://127.0.0.1:8080/register/users", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -72,15 +76,24 @@ const SignUp = (props: signupProp) => {
               <div className="sm:items-start p-4">
                 <div className="flex">
                   <img src={logo} className="w-10 h-10 bg-green-400 rounded-full" />
-                  <h1 onClick={() => props?.setSignupPopup(false)} className="font-extrabold ml-96 cursor-pointer">X</h1>
+                  <h1 onClick={() => props.setSignupPopup(false)} className="font-extrabold ml-auto cursor-pointer">X</h1>
                 </div>
                 <h1 className="font-semibold text-3xl mt-5">Create your account to get started with TripRecommender.</h1>
                 <div className="mt-3">
                   <input
                     type="text"
-                    placeholder="Full Name"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
+                    placeholder="First Name"
+                    value={firstname}
+                    onChange={(e) => setFirstname(e.target.value)}
+                    className="w-full p-3 rounded-full border mt-2"
+                  />
+                </div>
+                <div className="mt-3">
+                  <input
+                    type="text"
+                    placeholder="Last Name"
+                    value={lastname}
+                    onChange={(e) => setLastname(e.target.value)}
                     className="w-full p-3 rounded-full border mt-2"
                   />
                 </div>
@@ -89,7 +102,7 @@ const SignUp = (props: signupProp) => {
                     type="email"
                     placeholder="Email"
                     value={email}
-                    onChange={(e) => setEmail(e.target.value)}
+                    onChange={(e) => setMail(e.target.value)}
                     className="w-full p-3 rounded-full border mt-2"
                   />
                 </div>
@@ -126,8 +139,8 @@ const SignUp = (props: signupProp) => {
                     onChange={(e) => setRole(e.target.value)}
                     className="w-full p-3 rounded-full border mt-2"
                   >
-                    <option value="Traveler">Traveler</option>
-                    <option value="Owner">Owner</option>
+                    <option value="USER">USER</option>
+                    <option value="OWNER">OWNER</option>
                   </select>
                 </div>
                 <button

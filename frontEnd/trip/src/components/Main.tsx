@@ -23,45 +23,58 @@ const Main = () => {
   const [checkOut, setCheckOut] = useState("");
   const [budget, setBudget] = useState(0);
   const [preferences, setPreferences] = useState<string[]>([]);
-  const [isAuthenticated, setIsAuthenticated] = useState(true);
-  const [userRole, setUserRole] = useState("Travelere");
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [userRole, setUserRole] = useState("");
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [age, setAge] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const navigate = useNavigate(); // Initialize useNavigate hook
 
-  // Effect to fetch user role based on auth token
+  // Effect to fetch user information based on the auth token
   useEffect(() => {
     const token = localStorage.getItem("authToken");
+    const tokenInfo = localStorage.getItem("jwtToken");
     if (token) {
       setIsAuthenticated(true);
-      const fetchUserRole = async () => {
+      setLoading(true);
+      const fetchUserInfo = async () => {
         try {
-          const response = await fetch("http://127.0.0.1:8000/user-role", {
+          const response = await fetch("http://127.0.0.1:8080/user/info", {
             headers: {
-              Authorization: `Bearer ${token}`,
+              Authorization: `Bearer ${tokenInfo}`,
             },
           });
           if (!response.ok) {
-            throw new Error("Failed to fetch user role");
+            throw new Error("Failed to fetch user information");
           }
           const data = await response.json();
-          setUserRole(data.role); // Assuming `data.role` contains the role
+          setUserRole(data.role);
+          setFirstName(data.firstname);
+          setLastName(data.lastname);
+          setEmail(data.email);
+          setAge(data.age);
         } catch (error) {
-          console.error("Error fetching user role:", error);
+          console.error("Error fetching user information:", error);
+        } finally {
+          setLoading(false);
         }
       };
 
-      fetchUserRole();
+      fetchUserInfo();
     }
   }, []);
 
-  // Redirect the owner to reservations page
+  // Redirect the owner to the reservations page
   useEffect(() => {
-    if (isAuthenticated && userRole === "Owner") {
+    if (isAuthenticated && userRole === "OWNER") {
       navigate("/reservations"); // Redirect to reservations page
     }
   }, [isAuthenticated, userRole, navigate]);
 
-  // Handle the search and fetch recommendations
+  // Handle search and fetch recommendations
   const handleSearch = async () => {
     if (!location || !checkIn || !checkOut || !budget) {
       alert("Please fill in all search parameters");
@@ -70,6 +83,7 @@ const Main = () => {
 
     const url = "http://127.0.0.1:8000/recommendations/";
     const token = localStorage.getItem("authToken");
+    setLoading(true);
 
     try {
       const response = await fetch(url, {
@@ -84,6 +98,7 @@ const Main = () => {
           check_out_date: checkOut,
           budget,
           preferences,
+          age: age,
         }),
       });
 
@@ -97,6 +112,8 @@ const Main = () => {
     } catch (error) {
       console.error("Error fetching recommendations:", error);
       alert(error instanceof Error ? error.message : "An error occurred while fetching recommendations.");
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -109,9 +126,11 @@ const Main = () => {
       />
 
       <main className="container mx-auto px-4 py-8">
-        {isAuthenticated ? (
+        {loading ? (
+          <div className="text-center text-gray-600">Loading...</div>
+        ) : isAuthenticated ? (
           <div className="space-y-8">
-            {userRole !== "Owner" && (
+            {userRole !== "OWNER" && (
               <Menubar
                 setLocation={setLocation}
                 setCheckIn={setCheckIn}

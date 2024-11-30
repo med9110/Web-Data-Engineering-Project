@@ -30,9 +30,13 @@ type HomeProps = {
   trip: Trip;
   isAuthenticated: boolean;
   userRole: string;
+  firstName?: string;
+  lastName?: string;
+  email?: string;
+  age?: string;
 };
 
-const Home: React.FC<HomeProps> = ({ trip, isAuthenticated, userRole }) => {
+const Home: React.FC<HomeProps> = ({ trip, isAuthenticated, userRole, firstName, lastName, email, age }) => {
   const mockProperties: Property[] = [
     {
       name: "Luxury Beach Villa",
@@ -54,21 +58,22 @@ const Home: React.FC<HomeProps> = ({ trip, isAuthenticated, userRole }) => {
   if (!isAuthenticated) {
     return (
       <div className="flex items-center justify-center min-h-screen relative overflow-hidden">
-      
-      <img
+        <img
           src={lens}
           alt="Morocco"
           className="absolute inset-0 object-cover w-full h-full"
         />
-        
       </div>
     );
   }
 
   // Show Owner Dashboard
-  if (userRole === "Owner") {
+  if (userRole === "OWNER") {
     return (
       <div className="max-w-3xl mx-auto p-5">
+        <h2 className="text-2xl font-bold mb-4">Welcome, {firstName} {lastName}</h2>
+        <p className="text-gray-600 mb-6">Manage your properties and bookings efficiently.</p>
+
         <div>
           <h2 className="text-2xl font-bold mb-4">Manage Your Properties</h2>
           <p className="text-gray-600 mb-6">
@@ -130,7 +135,7 @@ const Home: React.FC<HomeProps> = ({ trip, isAuthenticated, userRole }) => {
         <div className="container mx-auto px-4 py-20">
           <div className="text-center space-y-4">
             <h1 className="font-extrabold text-6xl text-gray-800 tracking-tight">
-              Where to go?
+              Where to go, {firstName}?
             </h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Enter your travel details and let us plan your perfect trip.
@@ -162,7 +167,7 @@ const Home: React.FC<HomeProps> = ({ trip, isAuthenticated, userRole }) => {
   return (
     <div className="max-w-3xl mx-auto p-5">
       <div>
-        <h2 className="text-2xl font-bold mb-4">Your Trip Details</h2>
+        <h2 className="text-2xl font-bold mb-4">Your Trip Details, {firstName}</h2>
         <p className="text-gray-600">Plan your dream trip effortlessly.</p>
         {/* Render trip details */}
         {trip.hotel && (
@@ -171,7 +176,30 @@ const Home: React.FC<HomeProps> = ({ trip, isAuthenticated, userRole }) => {
             <p>{trip.hotel.name} - ${trip.hotel.total_cost}</p>
           </div>
         )}
-        {/* Add more trip details rendering here */}
+        {trip.restaurants.length > 0 && (
+          <div className="mt-4">
+            <h3 className="text-xl font-semibold">Restaurants</h3>
+            <ul>
+              {trip.restaurants.map((restaurant, index) => (
+                <li key={index}>
+                  {restaurant.name} - ${restaurant.price}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {trip.activities.length > 0 && (
+          <div className="mt-4">
+            <h3 className="text-xl font-semibold">Activities</h3>
+            <ul>
+              {trip.activities.map((activity, index) => (
+                <li key={index}>
+                  {activity.name} - ${activity.price}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
     </div>
   );

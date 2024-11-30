@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { jwtDecode } from "jwt-decode";
+import { useNavigate } from "react-router-dom";
 import logo from "../assets/logo.png";
 import ForgotPassword from "./ForgotPassword";
 
@@ -12,8 +13,13 @@ const Signin = (props: signinProp) => {
   const [emailInput, setEmailInput] = useState("");
   const [passwordInput, setPasswordInput] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
-  const [isSubmitting, setIsSubmitting] = useState(false); 
-  const [isForgotPassword, setIsForgotPassword] = useState(false); 
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isForgotPassword, setIsForgotPassword] = useState(false);
+  const [userRole, setUserRole] = useState("");
+  const [loading, setLoading] = useState(false);
+
+
+  const navigate = useNavigate(); // useNavigate hook for redirection
 
   type DecodedToken = {
     claims: {
@@ -27,7 +33,7 @@ const Signin = (props: signinProp) => {
       return;
     }
 
-    setIsSubmitting(true); 
+    setIsSubmitting(true);
 
     try {
       const response = await fetch("http://127.0.0.1:8080/auth/login/users", {
@@ -36,7 +42,7 @@ const Signin = (props: signinProp) => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          username: emailInput, 
+          username: emailInput,
           password: passwordInput,
         }),
       });
@@ -51,13 +57,37 @@ const Signin = (props: signinProp) => {
       if (token) {
         localStorage.setItem("authToken", token);
 
-       
         const decoded: DecodedToken = jwtDecode(token);
         console.log("Decoded Token:", decoded);
 
-        
         props.setIsAuthenticated(true);
-        props.setSigninPopup(false); 
+        const tokenInfo = localStorage.getItem("jwtToken");
+        setLoading(true);
+        const fetchUserInfo = async () => {
+          try {
+            const response = await fetch("http://127.0.0.1:8080/user/info", {
+              headers: {
+                Authorization: `Bearer ${tokenInfo}`,
+              },
+            });
+            if (!response.ok) {
+              throw new Error("Failed to fetch user information");
+            }
+            const data = await response.json();
+            setUserRole(data.role);
+          } catch (error) {
+            console.error("Error fetching user information:", error);
+          } finally {
+            setLoading(false);
+          }
+        };
+        fetchUserInfo();
+        props.setSigninPopup(false);
+
+        // Redirect based on role
+        if (userRole === "OWNER") {
+          navigate("/reservations");
+        }
       } else {
         setErrorMessage("Token not found in response.");
       }
@@ -93,7 +123,6 @@ const Signin = (props: signinProp) => {
                 </h1>
                 {errorMessage && <p className="text-red-500 mt-2">{errorMessage}</p>}
 
-                {/* Conditionally render ForgotPassword or Signin */}
                 {!isForgotPassword ? (
                   <>
                     <div className="mt-3">
@@ -120,7 +149,6 @@ const Signin = (props: signinProp) => {
                       </button>
                     </div>
 
-                    {/* Forgot Password Link */}
                     <div className="text-center mt-3">
                       <button
                         onClick={() => setIsForgotPassword(true)}

@@ -12,7 +12,16 @@ type searchProp = {
 };
 
 const Menubar = (props: searchProp) => {
-  const availablePreferences = ["Beach", "Mountains", "City", "Adventure", "Relaxation"];
+  const availablePreferences = ["Hébergement",
+    "Restauration",
+    "Activités",
+    "Outdoor Adventures",
+    "Cultural Experiences",
+    "Workshops",
+    "Luxury Stays",
+    "Street Food",
+    "Family Activities",
+    "Solo Travel"];
 
   const handlePreferenceChange = (preference: string) => {
     if (props.preferences.includes(preference)) {

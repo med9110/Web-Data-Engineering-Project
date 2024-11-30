@@ -24,6 +24,8 @@ const Navbar: React.FC<NavbarProps> = ({ setIsAuthenticated, isAuthenticated, us
   const handleSignOut = () => {
     setIsAuthenticated(false);
     localStorage.removeItem("authToken");
+    localStorage.removeItem("jwtToken");
+
     navigate("/");
   };
 
