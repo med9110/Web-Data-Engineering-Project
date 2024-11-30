@@ -110,7 +110,7 @@ public class UserserviceImpl implements Userservice {
 
     @Override
     public User findUserByEmail(final String email) {
-        return userRepository.findByMail(email);
+        return userRepository.findByEmail(email);
     }
 
     @Override
@@ -135,6 +135,10 @@ public class UserserviceImpl implements Userservice {
         return passwordResetToken.getUser();
     }
 
-
+    @Override
+    public Integer getUserAge(Long id) {
+        User user = userRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("User not found"));
+        return user.getAge();
+    }
 
 }

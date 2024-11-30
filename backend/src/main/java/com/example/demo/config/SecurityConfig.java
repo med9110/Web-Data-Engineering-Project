@@ -59,6 +59,14 @@ public class SecurityConfig {
                         .requestMatchers("/register/**").permitAll()
                         .requestMatchers("/user/**").permitAll()
                         .requestMatchers("/logout/**").permitAll() // Allow access to logout endpoint
+                        .requestMatchers("/listings/**").authenticated()
+                        .requestMatchers("/bookings/**").authenticated()
+                        .requestMatchers("/ratings/**").authenticated()
+                        .requestMatchers("/hebergements/**").authenticated()
+                        .requestMatchers("/restaurations/**").authenticated()
+                        .requestMatchers("/activities/**").authenticated()
+                        .requestMatchers("/visited/**").authenticated()
+                        .requestMatchers("/user/info").authenticated()
                         .anyRequest().authenticated()
                 )
                 .logout(logout -> logout

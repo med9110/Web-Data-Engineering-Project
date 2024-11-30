@@ -18,7 +18,6 @@ public interface Userservice {
 
     List<User> getAllUser();
 
-
     @Transactional
     void createPasswordResetTokenForUser(User user, String token);
 
@@ -29,4 +28,6 @@ public interface Userservice {
     void changeUserPassword(User user, String newPassword);
 
     User getUserByPasswordResetToken(String token);
+
+    Integer getUserAge(Long id);
 }

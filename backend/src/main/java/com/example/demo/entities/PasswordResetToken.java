@@ -4,7 +4,6 @@ import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.nio.channels.NonWritableChannelException;
 import java.util.Calendar;
 import java.util.Date;
 

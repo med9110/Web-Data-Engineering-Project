@@ -18,23 +18,22 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String Firstname;
-    private String Lastname;
-
-    private String Mail;
-    private String Password;
-    private String Role;
+    private String firstname;
+    private String lastname;
+    private String email;
+    private String password;
+    private String role; // "OWNER" or "USER"
 
     private boolean confirmed = false;
     private Boolean isFirstAuth = true;
 
-    private Integer age; // New field for user age
+    private Integer age;
 
     @ElementCollection
     @CollectionTable(
             name = "user_preferences",
-            joinColumns = @JoinColumn(name = "user_id") // Foreign key to the "user" table
+            joinColumns = @JoinColumn(name = "user_id")
     )
-    @Column(name = "preference") // Column to store preference strings
-    private List<String> preferences; // List to store multiple preferences
+    @Column(name = "preference")
+    private List<String> preferences;
 }

@@ -17,7 +17,6 @@ import java.time.Instant;
 import java.time.temporal.ChronoUnit;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Optional;
 import java.util.stream.Collectors;
 @CrossOrigin("*")
 @RestController
@@ -53,7 +52,7 @@ public class AuthController {
         Instant instant = Instant.now();
         System.out.println("instant::::::::::::::::::::::::::::::::"+instant);
 
-        User user = userRepository.findByMail(username);
+        User user = userRepository.findByEmail(username);
 
         String authorities = authentication.getAuthorities().stream()
                 .map(a -> a.getAuthority())

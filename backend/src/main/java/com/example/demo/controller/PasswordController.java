@@ -1,8 +1,6 @@
 package com.example.demo.controller;
 
-import com.example.demo.Repository.PasswordResetTokenRepository;
 import com.example.demo.dto.PasswordDto;
-import com.example.demo.entities.PasswordResetToken;
 import com.example.demo.entities.User;
 import com.example.demo.services.PasswordResetTokenService;
 import com.example.demo.services.Userservice;
@@ -48,8 +46,6 @@ public class PasswordController {
     @Autowired
     private PasswordResetTokenService passwordResetTokenService;
 
-    @Autowired
-    private PasswordResetTokenRepository passwordResetTokenRepository;
 
     @PostMapping("/user/resetpassword")
     public ResponseEntity<?> resetPassword(HttpServletRequest request, @RequestParam("email") String userEmail) {
@@ -101,7 +97,7 @@ public class PasswordController {
 
         // Update the user's password
         userservice.changeUserPassword(user, passwordDto.getNewPassword());
-        log.info("Password successfully updated for user: {}", user.getMail());
+        log.info("Password successfully updated for user: {}", user.getEmail());
 
         // Optionally, remove the token after successful password update
         passwordResetTokenService.deleteByToken(token);
@@ -120,7 +116,7 @@ public class PasswordController {
         SimpleMailMessage email = new SimpleMailMessage();
         email.setSubject(subject);
         email.setText(body);
-        email.setTo(user.getMail());
+        email.setTo(user.getEmail());
         email.setFrom(env.getProperty("support.email"));
         return email;
     }
