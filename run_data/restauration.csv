@@ -1,0 +1,201 @@
+id,name,type,address,location,phone,email,average_price_per_person
+1,"Lucas, Campbell and Hurst",Restaurant,60199 Ashley Forges Apt. 902,"Marrakech, Morocco",(817)970-3781x61710,courtney02@example.com,71.18
+2,Daniels Inc,Restaurant,13122 Rogers Forest Apt. 827,"Fes, Morocco",648-378-1598,christinehart@example.net,46.64
+3,"Evans, Ward and Bender",Bakery,06804 Cox Lodge Suite 810,"Oujda, Morocco",001-853-678-3179,hannah40@example.org,55.59
+4,Miller-Smith,Restaurant,690 Anderson Pine Apt. 423,"Fes, Morocco",001-891-290-1761x390,stanleyedwards@example.org,97.68
+5,Hines LLC,Café,976 Rachel Point,"Agadir, Morocco",695-560-5363,jaimemoore@example.org,10.85
+6,"Harrington, Garrison and Douglas",Bakery,5121 Amanda View Suite 428,"Oujda, Morocco",633.747.6705,harrisvictoria@example.com,89.88
+7,"Obrien, Pineda and Gill",Restaurant,966 Jordan Village Suite 062,"Fes, Morocco",972.371.9331x3817,joseph27@example.net,68.74
+8,Price-Ramos,Restaurant,3557 Makayla Brook,"Rabat, Morocco",001-620-211-7776,kaylamendez@example.org,31.2
+9,Harris-Dean,Bakery,9224 Stanley Fords Apt. 912,"Fes, Morocco",+1-549-371-2068x2850,robinsonpaul@example.com,93.52
+10,"Smith, Nichols and Nixon",Bistro,11270 Lucas Run,"Rabat, Morocco",(857)667-0541,richardwilliams@example.com,61.78
+11,"Taylor, Daniel and Gill",Café,0636 Taylor Lane,"Oujda, Morocco",+1-417-740-3914x72791,smithamber@example.com,75.17
+12,"Gibson, Jones and Henry",Street Food,778 Hill Glen Suite 485,"Fes, Morocco",+1-503-675-4774x414,flawson@example.com,59.2
+13,Gordon-Reed,Street Food,68113 Rice Land,"Agadir, Morocco",001-730-268-5894x4155,matthewross@example.net,6.73
+14,Mitchell-Hernandez,Street Food,4095 Rachel Mount,"Marrakech, Morocco",531-325-3757,gregoryjones@example.com,31.97
+15,Jimenez PLC,Café,97514 John Lodge Apt. 730,"Oujda, Morocco",(450)706-3104,ewood@example.org,81.38
+16,"Willis, Adams and Solomon",Café,76816 Colon Estates Suite 644,"Rabat, Morocco",7942177718,nherring@example.net,51.79
+17,Jackson-Hill,Café,959 Spencer Camp,"Fes, Morocco",+1-775-704-2810x7948,nguyenedwin@example.net,17.55
+18,Hamilton-Dixon,Bistro,4887 Osborne Course,"Rabat, Morocco",7595941163,melissa68@example.com,12.25
+19,Robinson-Hudson,Restaurant,008 Linda Camp Suite 199,"Oujda, Morocco",7576698643,eoliver@example.com,98.27
+20,Jackson-Wright,Café,34246 Ramos Freeway,"Oujda, Morocco",580.337.9287,peterclark@example.com,93.38
+21,Lopez PLC,Bistro,385 Allison Orchard,"Agadir, Morocco",001-507-623-2337x79520,dustin43@example.com,40.29
+22,Bass PLC,Bakery,357 Butler Turnpike Suite 554,"Fes, Morocco",861.249.0068x81946,veronica79@example.com,42.68
+23,Clements-Ramirez,Street Food,738 Torres Crest Apt. 219,"Fes, Morocco",770-975-3208x8049,gabriel00@example.com,27.12
+24,"Fletcher, Mcdaniel and Stewart",Café,14418 Lopez Estate Suite 707,"Casablanca, Morocco",+1-662-436-8137x6640,marshsean@example.org,50.92
+25,Moore-Zimmerman,Street Food,45198 Carl Shoal,"Oujda, Morocco",001-372-375-3323x524,troberts@example.com,79.73
+26,Adams-Hancock,Bistro,676 Patrick Lock,"Tangier, Morocco",(700)650-1449,mperkins@example.com,62.66
+27,"Cook, Espinoza and Gonzales",Street Food,875 Michael Plaza,"Oujda, Morocco",631.207.9336x767,gibsonjames@example.net,46.96
+28,"Meyer, Ramirez and Simon",Bakery,690 Fleming Garden,"Rabat, Morocco",357.721.0108x8942,avalenzuela@example.org,65.12
+29,Aguilar-Johnson,Street Food,2082 April Fork Suite 233,"Tangier, Morocco",+1-651-316-7081,zdunn@example.net,86.6
+30,Armstrong-Herrera,Café,3226 Brian Field,"Rabat, Morocco",776-937-0576,hgutierrez@example.org,46.12
+31,Dougherty Group,Bistro,083 Maxwell Lake Apt. 957,"Marrakech, Morocco",+1-992-228-4685x445,fdavis@example.org,49.52
+32,Jackson Ltd,Street Food,24556 Morgan Circles,"Marrakech, Morocco",953-827-8228x059,coopercurtis@example.com,61.23
+33,"Powell, Chambers and Sanchez",Bistro,231 Powell Lodge,"Casablanca, Morocco",(729)955-9806,williammcdonald@example.com,62.71
+34,"Key, Romero and Trujillo",Café,463 Tony Drive,"Tangier, Morocco",760-795-8516,lauren63@example.net,20.85
+35,Garcia-Hernandez,Restaurant,36273 Hernandez Rapids Suite 267,"Agadir, Morocco",(899)464-6831x70153,melissakelley@example.com,97.6
+36,Thompson-Morris,Bistro,346 Smith Harbors Suite 898,"Fes, Morocco",(631)543-5126x777,riverafernando@example.org,34.25
+37,"Valentine, Henderson and Potter",Bakery,464 Michael Avenue Apt. 611,"Agadir, Morocco",+1-905-977-5453x669,vaughnrobert@example.org,54.67
+38,Mayo and Sons,Bakery,2008 Monroe Points Suite 047,"Fes, Morocco",7697858802,sandraarellano@example.org,59.0
+39,"Andrews, Garcia and Williams",Restaurant,973 Emily Coves,"Tangier, Morocco",+1-369-645-8188x0117,krystal13@example.net,67.97
+40,"Martin, Avila and Howard",Restaurant,2694 Pace Burg Apt. 891,"Agadir, Morocco",001-623-428-9591x2745,frederickkidd@example.net,30.86
+41,Yates-Holden,Restaurant,3160 Hood Path Suite 517,"Casablanca, Morocco",(938)427-7677x9998,pharris@example.net,92.82
+42,Perez PLC,Street Food,24951 Sullivan Hills,"Tangier, Morocco",572.921.3908x294,cgrimes@example.net,20.62
+43,Johnson LLC,Bistro,560 Turner Prairie,"Marrakech, Morocco",+1-548-820-3680x5619,horntheresa@example.org,51.22
+44,Williams-Herrera,Café,2792 Hoover Knolls,"Fes, Morocco",4915685027,scottkimberly@example.org,96.14
+45,Perez-Blanchard,Restaurant,6099 Smith Mount Apt. 649,"Fes, Morocco",001-426-616-4688x6876,utorres@example.net,64.76
+46,"Spence, Fox and Mora",Café,71087 Rachel Overpass,"Oujda, Morocco",531-608-1530x817,romerothomas@example.net,58.56
+47,"Oconnor, Farley and Ford",Bistro,40834 Taylor Locks Apt. 619,"Rabat, Morocco",+1-787-309-1829x35025,mooreryan@example.net,52.78
+48,"Thompson, Le and Moore",Bakery,841 Mcbride Stravenue,"Agadir, Morocco",+1-510-939-2846,ybrown@example.org,25.43
+49,"Gregory, Grant and Berry",Café,9052 Williams Fields Apt. 584,"Rabat, Morocco",531.821.9616,melissawells@example.org,67.07
+50,Cantrell-Jones,Street Food,99472 Adkins Trafficway Apt. 091,"Rabat, Morocco",495-231-5301,newmanbrenda@example.com,85.59
+51,"Torres, Harrell and Rodriguez",Café,378 Holly Pine,"Casablanca, Morocco",(909)336-9648x1127,andrewkramer@example.net,36.06
+52,Mann-Gentry,Restaurant,6140 Turner Expressway,"Marrakech, Morocco",(256)207-8098x36423,acostasteven@example.com,94.55
+53,"Robinson, Potts and Garcia",Street Food,24168 Wilson Forest Apt. 931,"Casablanca, Morocco",(577)717-4995x518,lisarivas@example.com,34.24
+54,"Coleman, Wilson and Lopez",Street Food,971 Johnson Land Apt. 802,"Oujda, Morocco",(428)867-2271x8237,caleb65@example.com,57.42
+55,Smith-Peterson,Bistro,664 Cook Pine Apt. 067,"Rabat, Morocco",001-774-679-1753,vchristensen@example.com,19.23
+56,Gomez and Sons,Café,88262 Lowe Spurs,"Fes, Morocco",514.457.8463,zgill@example.net,63.36
+57,Meza-Hall,Bistro,483 Michael Flats,"Tangier, Morocco",+1-941-290-6046,victoria93@example.org,24.0
+58,Blake-Henderson,Café,5743 Krause Turnpike,"Rabat, Morocco",(464)985-5646x52350,kennedypaul@example.org,87.17
+59,Anderson-Harper,Street Food,17699 Coleman Pike,"Rabat, Morocco",(912)553-4122x42197,lindsay89@example.net,66.96
+60,Williams Group,Café,84929 Robinson Forks,"Marrakech, Morocco",+1-825-503-8892x9890,jamiecalhoun@example.com,19.1
+61,Vargas-Robinson,Street Food,273 Jones Garden,"Oujda, Morocco",001-642-939-0798x17483,lisa97@example.com,7.68
+62,Simmons and Sons,Bistro,037 Chen Ramp,"Marrakech, Morocco",7779308465,jameswest@example.net,13.81
+63,Mercado-Wood,Café,486 Cervantes Village,"Agadir, Morocco",+1-313-384-1731,saraflynn@example.net,42.5
+64,"Pratt, Martinez and Haley",Restaurant,38840 Cunningham Keys Apt. 202,"Agadir, Morocco",467-369-1201,christopher39@example.org,39.41
+65,"Kline, Martin and Stewart",Bistro,663 Donna Squares Apt. 824,"Oujda, Morocco",+1-965-643-6035,brianfox@example.net,91.03
+66,"Valenzuela, Alvarez and Anthony",Bakery,71335 Jeffery Estates Suite 024,"Oujda, Morocco",264-781-4816,tbyrd@example.com,38.69
+67,"Mcconnell, Lowe and Moss",Bakery,693 Harris Crescent Suite 341,"Rabat, Morocco",218.754.9970x2344,dpeterson@example.com,61.66
+68,"Oconnor, Sullivan and Rodriguez",Street Food,43583 Brown Creek Suite 333,"Agadir, Morocco",+1-875-333-5087,egray@example.com,49.68
+69,Thompson and Sons,Café,65468 Natasha Corners,"Rabat, Morocco",001-608-473-9385x1263,adamcarpenter@example.org,37.07
+70,Gutierrez-Bailey,Bakery,68213 Elizabeth Square Suite 153,"Tangier, Morocco",7757675142,psalazar@example.org,44.35
+71,"Madden, Rowe and Franklin",Restaurant,161 Atkinson Cove,"Agadir, Morocco",(723)599-7808,pcampos@example.net,98.46
+72,"Wright, Johnson and Moody",Bistro,91743 Douglas Keys Apt. 341,"Fes, Morocco",230.994.1382x5739,georgegallagher@example.net,53.76
+73,Phillips-Anderson,Bakery,1664 Stephen Skyway Apt. 532,"Tangier, Morocco",+1-772-644-9670x85144,dleon@example.net,79.39
+74,Rice Inc,Street Food,73181 Kyle Locks,"Rabat, Morocco",981.705.6332,melanie10@example.org,5.79
+75,Soto-Mullins,Street Food,794 Mcmillan Station,"Oujda, Morocco",+1-895-542-2079x2635,brandon79@example.org,66.15
+76,"Buchanan, Miller and Evans",Bakery,478 Elizabeth Forge,"Marrakech, Morocco",927.647.9186,kathrynjohnson@example.net,94.07
+77,Morrison Ltd,Café,792 Prince Plain Apt. 546,"Fes, Morocco",231.540.3485x2057,ataylor@example.org,54.63
+78,"Grimes, Aguilar and Thompson",Bakery,16748 Patrick Landing,"Casablanca, Morocco",950-445-7157x389,deanna75@example.org,17.6
+79,Chang and Sons,Street Food,927 Anthony View,"Agadir, Morocco",+1-905-569-6617x8704,kristaholland@example.net,53.88
+80,"Burnett, Morgan and Davies",Bakery,884 Terri Centers Apt. 106,"Tangier, Morocco",+1-482-378-5612x04034,victoriakirby@example.org,75.99
+81,Lee-Williamson,Café,92499 Stephanie Skyway,"Casablanca, Morocco",8424571942,nhart@example.org,58.96
+82,Turner-Hunter,Restaurant,57541 Russell Trafficway Suite 976,"Oujda, Morocco",001-605-215-0747x46362,ginapatterson@example.org,34.92
+83,Dean Ltd,Bakery,38814 Phelps Oval Apt. 118,"Tangier, Morocco",893-897-0671x59575,bmartinez@example.com,42.35
+84,Blair-Padilla,Café,322 Lisa Way,"Oujda, Morocco",274.787.1085x32415,brookscatherine@example.org,11.46
+85,"Fox, Goodwin and Crosby",Street Food,599 Williams Islands Apt. 526,"Agadir, Morocco",9396200752,emmacox@example.net,30.83
+86,Simon Group,Restaurant,359 Maria Valley Suite 271,"Rabat, Morocco",(877)418-4600x1114,kathleenconway@example.com,31.83
+87,Dixon Inc,Restaurant,6373 Morgan Prairie Suite 276,"Agadir, Morocco",940.574.9350,phillip49@example.com,46.33
+88,Gonzalez-Decker,Bakery,2690 Thompson Crossroad Apt. 394,"Oujda, Morocco",(546)506-5733,traceyturner@example.com,66.88
+89,Williams-Smith,Bistro,54327 Hernandez Gardens,"Casablanca, Morocco",(939)356-3816,lhines@example.org,17.14
+90,Bowers Ltd,Bakery,0113 Kathryn Spurs Suite 287,"Agadir, Morocco",(834)652-7516x4851,adavis@example.com,11.63
+91,Cox-Cruz,Street Food,08827 Bautista Falls,"Fes, Morocco",2936806899,victoria22@example.net,78.44
+92,Phillips Ltd,Restaurant,10404 Ruiz Terrace,"Agadir, Morocco",(888)493-3607x378,barry88@example.net,78.09
+93,Tucker Ltd,Bistro,770 Jamie Cove,"Agadir, Morocco",392.829.3663x7050,morganelizabeth@example.com,80.01
+94,Jones-Jenkins,Bistro,87850 Sonia Cliff Suite 462,"Marrakech, Morocco",(385)783-5436x22255,ncardenas@example.org,54.15
+95,"Dunlap, Jones and Hatfield",Café,4256 Joshua Garden Apt. 520,"Agadir, Morocco",828-694-4134,danielsaunders@example.org,47.16
+96,"Jackson, Olson and Kelly",Bakery,809 Joel Place Suite 091,"Oujda, Morocco",(622)444-7165x1575,davidrhodes@example.org,76.32
+97,Fields-Robinson,Bistro,295 Sara Streets Apt. 917,"Fes, Morocco",239.676.1486x1535,antonio84@example.net,55.88
+98,Payne Ltd,Street Food,750 Smith Bridge Suite 045,"Oujda, Morocco",575.318.3724,danderson@example.com,16.29
+99,"Conway, Barry and Saunders",Street Food,053 Becky Ranch,"Rabat, Morocco",(906)225-9639,hudsonrussell@example.net,84.93
+100,"Nielsen, Jones and Reid",Bakery,957 Smith Courts Apt. 294,"Agadir, Morocco",+1-950-431-6221x37203,wsmall@example.com,97.02
+101,Bailey Group,Café,35629 Perry Camp,"Agadir, Morocco",9203476073,qbeck@example.com,19.12
+102,"Lynn, Mullins and Smith",Bistro,7607 Kimberly Walk Apt. 339,"Oujda, Morocco",5169084834,whiteian@example.org,36.66
+103,Underwood LLC,Bistro,00471 Cindy Point,"Oujda, Morocco",(878)835-1795x4407,james30@example.org,20.73
+104,Simmons-Garcia,Bistro,04070 David Cliffs,"Tangier, Morocco",489.300.2064,harperbrittney@example.org,18.98
+105,"Riley, Martinez and Bell",Street Food,160 Joshua Villages,"Oujda, Morocco",8974790866,abauer@example.com,25.8
+106,Singh and Sons,Bistro,11873 Palmer Glens Suite 542,"Agadir, Morocco",952-852-6443x65514,showard@example.com,11.26
+107,Frye-Alexander,Bistro,9311 Sara Way,"Casablanca, Morocco",+1-868-973-6953x97306,ricky76@example.net,47.21
+108,"Oliver, Horn and Leonard",Café,3362 Jacobs Shoals Apt. 543,"Oujda, Morocco",(559)435-4840,lucasfranco@example.net,83.27
+109,Cobb-Adams,Café,64900 Carson Inlet Apt. 372,"Tangier, Morocco",790.639.9971x7355,petersenjames@example.org,95.12
+110,Fernandez PLC,Bakery,3246 Christopher Prairie Apt. 291,"Agadir, Morocco",721.600.6171,gmathis@example.org,59.89
+111,Williams Ltd,Street Food,6819 Joseph Hills Suite 839,"Tangier, Morocco",001-864-370-5403x4741,delacruzamy@example.net,76.81
+112,Dunlap-Weaver,Bistro,149 Stephanie Rapids Suite 085,"Agadir, Morocco",6913109794,zwoodard@example.com,50.94
+113,"Wilson, Simmons and Williams",Café,5699 Patricia Shoals,"Fes, Morocco",203.290.0307x036,jordankelly@example.org,17.48
+114,Gilbert Inc,Bakery,87971 Jennifer Manor Suite 753,"Agadir, Morocco",(579)987-2795x3906,ecrosby@example.net,82.7
+115,Mclean PLC,Café,5611 Jason Neck,"Casablanca, Morocco",348-901-8596,lauren05@example.com,92.19
+116,Sandoval-Maxwell,Café,50979 Shannon Harbor Suite 702,"Tangier, Morocco",915-200-1050,jamesvargas@example.org,12.61
+117,Cole-Gordon,Bistro,824 Todd Underpass Suite 739,"Agadir, Morocco",001-256-243-9361,roy88@example.com,62.37
+118,Garner Inc,Bakery,740 Chelsea Crescent,"Casablanca, Morocco",(920)493-7515,marcia11@example.org,60.04
+119,"Hensley, Stewart and Taylor",Street Food,2285 David Lock,"Casablanca, Morocco",+1-217-811-2753x9000,rebeccagonzalez@example.org,60.05
+120,Kim Inc,Restaurant,30704 White Ways Apt. 901,"Tangier, Morocco",712.924.8661,ashleygordon@example.org,26.12
+121,Walsh and Sons,Café,989 Munoz Alley,"Tangier, Morocco",580.556.3531x036,ebarker@example.net,29.37
+122,Wheeler-Murillo,Bistro,404 Rose Vista,"Casablanca, Morocco",(949)327-1335x160,belindajones@example.net,83.1
+123,White-Carter,Bakery,352 Jared Cliff,"Casablanca, Morocco",636.208.0382x7155,dgarcia@example.org,99.3
+124,Sanchez and Sons,Café,45329 Ashley Forge Suite 559,"Marrakech, Morocco",(741)519-7976,qpena@example.org,51.32
+125,Caldwell Inc,Restaurant,8925 Timothy Via,"Oujda, Morocco",483-342-3175,ymorgan@example.net,19.3
+126,"Peterson, Cummings and Reynolds",Restaurant,8414 Hardin Skyway Suite 326,"Rabat, Morocco",6349782398,meganramirez@example.org,40.96
+127,Cooper Inc,Bakery,26898 Andrew Burg Apt. 731,"Oujda, Morocco",+1-728-675-7036x6403,jcarr@example.net,97.59
+128,Smith-Wall,Bistro,3685 Deborah Spring Suite 204,"Agadir, Morocco",+1-404-388-0892x077,xgeorge@example.net,71.12
+129,"Dean, Leblanc and Dawson",Street Food,84075 Adams Park,"Casablanca, Morocco",898-852-8496,rebecca05@example.net,27.92
+130,Smith-Wright,Café,3399 Stephenson Ferry Suite 222,"Casablanca, Morocco",001-242-965-1130x581,plandry@example.org,61.98
+131,Hill-Hood,Street Food,609 Mclaughlin Shore,"Fes, Morocco",582-325-4375x8374,robert04@example.com,36.42
+132,"Delgado, Murphy and Mills",Bakery,020 Spencer Glen Apt. 074,"Marrakech, Morocco",562.973.4680,vdunlap@example.org,96.2
+133,Kelly and Sons,Restaurant,12320 Saunders Rapid Suite 452,"Rabat, Morocco",962.501.9772,chrismullins@example.org,45.46
+134,"Thomas, Moore and Hicks",Restaurant,549 Thompson Dam Apt. 056,"Tangier, Morocco",(366)215-0220,stanleychavez@example.org,9.57
+135,Padilla-Bell,Street Food,05943 Espinoza Keys,"Agadir, Morocco",316-873-9211,qballard@example.net,60.06
+136,Anderson-Hobbs,Restaurant,429 Andrew Crossroad,"Tangier, Morocco",5713491208,conwayerik@example.com,95.77
+137,Jones-Thomas,Restaurant,336 Ronald Union Suite 515,"Casablanca, Morocco",+1-790-994-9035x027,adamsmaria@example.com,15.5
+138,Moore Ltd,Bistro,521 Bullock Grove Apt. 090,"Casablanca, Morocco",487.521.6497x7245,mooreshannon@example.com,48.83
+139,Brown-Hobbs,Bakery,3315 Elliott Isle Apt. 950,"Agadir, Morocco",693.700.9317x71423,catherine26@example.net,44.9
+140,Murphy Ltd,Bistro,8288 Randy Junctions Apt. 595,"Agadir, Morocco",8299511287,zacharykim@example.com,67.75
+141,"Johnson, White and Stanton",Café,06233 Courtney Corner,"Rabat, Morocco",983-884-8039,jessicagoodwin@example.org,75.61
+142,Stone Group,Street Food,9711 Brown Oval,"Marrakech, Morocco",945.412.3226x1568,sanderscharles@example.net,96.77
+143,Vargas LLC,Restaurant,2668 Candace Cliffs,"Agadir, Morocco",(943)770-5566x97005,ruizjanet@example.net,19.91
+144,Rojas Inc,Bistro,2985 Joshua Island Suite 574,"Marrakech, Morocco",001-647-472-8395x95754,johnsonlindsey@example.org,10.28
+145,Peters-Crawford,Street Food,658 Lewis Bridge,"Fes, Morocco",644.317.1953,beckygriffin@example.com,39.74
+146,"Mayer, Humphrey and Alvarado",Café,5827 Virginia Glens Suite 348,"Rabat, Morocco",953.614.8010,steven04@example.net,77.88
+147,Brown-Edwards,Restaurant,2680 Williams Station Apt. 302,"Agadir, Morocco",+1-530-844-3629,snydercatherine@example.com,41.36
+148,"Walsh, Vazquez and Wolfe",Restaurant,887 Margaret Prairie,"Tangier, Morocco",251-628-1249,mary08@example.org,54.15
+149,"Morales, Bass and Serrano",Café,560 David Vista,"Marrakech, Morocco",325-947-2476,crystal47@example.com,53.33
+150,Bell-Pacheco,Café,2614 Tammie Rest,"Marrakech, Morocco",+1-333-464-7557x43811,jessica30@example.org,77.17
+151,Peterson PLC,Restaurant,50846 Adams Locks,"Fes, Morocco",(466)841-4340x4023,william73@example.com,60.2
+152,Alexander and Sons,Bakery,9502 Amanda Via Suite 237,"Agadir, Morocco",+1-635-667-8329x89536,tfaulkner@example.org,13.46
+153,Campbell-Davis,Restaurant,0896 Jennifer Park,"Fes, Morocco",885.224.4397x69812,logan38@example.org,50.31
+154,Glenn LLC,Restaurant,911 Anderson Extension Apt. 861,"Tangier, Morocco",001-515-798-8099x43065,kellie33@example.com,65.64
+155,Lane Ltd,Street Food,6053 Bishop Manors Apt. 461,"Fes, Morocco",+1-683-279-1579x85116,esanchez@example.com,95.3
+156,Cohen Inc,Street Food,33842 Stark Trafficway Suite 918,"Tangier, Morocco",450.424.1131,pricealicia@example.net,10.93
+157,Grant and Sons,Bakery,950 Grimes Squares,"Tangier, Morocco",(984)395-1656x463,ruizkatherine@example.net,86.47
+158,Koch Ltd,Bistro,1366 Devon Harbors,"Marrakech, Morocco",767.801.1234,petersonandrew@example.net,74.99
+159,Richmond PLC,Bakery,890 Jackson Inlet Apt. 101,"Marrakech, Morocco",(850)212-5646x786,pwade@example.org,18.79
+160,Williams Group,Restaurant,449 Simmons Mountains Apt. 167,"Oujda, Morocco",(723)485-3334x8822,tiffany52@example.org,11.03
+161,Smith-Whitaker,Street Food,437 Brent Haven,"Fes, Morocco",934-388-0142x919,paynemadison@example.net,62.52
+162,Cannon PLC,Bistro,379 Wright Estates,"Rabat, Morocco",001-325-579-4276x9419,jackiegraham@example.org,61.13
+163,Smith and Sons,Restaurant,29459 Andrews Hollow Suite 322,"Agadir, Morocco",574.361.9676x704,nancy83@example.org,57.23
+164,Duran-Elliott,Bistro,995 Holly Plains,"Casablanca, Morocco",478-293-0544x3874,jennifer32@example.net,96.27
+165,"Smith, Compton and Dixon",Restaurant,62601 Briana Burg Suite 312,"Marrakech, Morocco",556-865-1052,julie22@example.com,6.34
+166,Hoffman-Robbins,Restaurant,3144 Jones Harbors Suite 699,"Fes, Morocco",+1-610-403-8124x3447,zfrey@example.org,43.89
+167,Johnson-Martinez,Restaurant,595 Sarah Brook,"Marrakech, Morocco",001-980-844-2613x97092,lpitts@example.net,61.49
+168,"Sosa, Garcia and Walker",Bakery,638 Booth Mall Apt. 246,"Tangier, Morocco",+1-789-639-4264x24718,amanda21@example.com,14.13
+169,"Garza, Cannon and Underwood",Café,85606 Mcclain Ways Suite 563,"Oujda, Morocco",001-492-786-4544x16924,john98@example.org,81.3
+170,"Brown, Gonzalez and Day",Restaurant,3217 Erin Summit Suite 689,"Agadir, Morocco",940.400.9892x68283,youngamanda@example.com,40.65
+171,Beard-Robertson,Café,7553 Vazquez Walk Suite 383,"Rabat, Morocco",001-653-479-8250x08794,bmcdowell@example.org,43.41
+172,Long-Smith,Street Food,41740 Jackson Alley Suite 714,"Rabat, Morocco",+1-293-672-5726x938,sbrewer@example.net,74.45
+173,Robinson-Rivera,Bakery,71217 Luna Villages Apt. 128,"Tangier, Morocco",+1-318-536-0504x7566,davidgrimes@example.com,67.51
+174,Dalton-Herrera,Bakery,3104 Sandoval Viaduct,"Fes, Morocco",8847672147,hkennedy@example.com,33.21
+175,"Brewer, Hall and Lloyd",Bakery,70627 Angela Orchard Apt. 642,"Oujda, Morocco",504-667-7726,johnscott@example.com,8.74
+176,Norman-Bailey,Bistro,16781 Kristin Plaza,"Oujda, Morocco",001-439-557-5600,imccullough@example.net,97.01
+177,Clark-Mathews,Street Food,927 Flores Course Suite 737,"Fes, Morocco",947.501.9049x252,prichard@example.org,32.99
+178,King Ltd,Café,486 Brian Cliffs,"Tangier, Morocco",823-352-6987x50323,byrdjoshua@example.net,60.13
+179,Johnson Inc,Bakery,57561 Christina Stream Suite 239,"Rabat, Morocco",6453190496,zachary68@example.net,48.25
+180,Morales-Collier,Bakery,1025 Young Camp,"Agadir, Morocco",408-898-3046x54509,thomaswiley@example.com,5.39
+181,"Wyatt, Stewart and Morrison",Restaurant,02517 Erin Loaf Suite 064,"Casablanca, Morocco",+1-712-577-9092x6391,brandon95@example.net,51.2
+182,"Murphy, Greene and Young",Restaurant,7443 Lee Islands,"Fes, Morocco",+1-228-622-2315x353,pterry@example.net,34.14
+183,Stewart and Sons,Café,7365 Park Curve,"Tangier, Morocco",+1-780-556-7915,stacygarcia@example.org,12.15
+184,Camacho-Hughes,Street Food,676 Dan Shores Suite 051,"Rabat, Morocco",708-266-2464,vchoi@example.net,36.49
+185,Green-Hernandez,Street Food,3966 Devin Ford Suite 533,"Casablanca, Morocco",+1-557-879-5133,natalie13@example.org,91.63
+186,"Bailey, Lopez and Tran",Café,84257 Krystal Shores,"Casablanca, Morocco",001-522-211-3520,stephenedwards@example.com,25.93
+187,Nunez Ltd,Bakery,2381 Timothy Field,"Agadir, Morocco",(977)371-9676x791,oneillmichelle@example.com,91.25
+188,Oconnor-Guerrero,Street Food,76006 Brandy Neck,"Oujda, Morocco",975-902-1295x34556,shunt@example.org,32.06
+189,Carroll Inc,Restaurant,066 Shelton Drives Suite 903,"Marrakech, Morocco",(405)720-6402,jamierivera@example.org,86.68
+190,Harris Inc,Bistro,147 Jared Glen,"Casablanca, Morocco",001-477-929-4603x271,smithsharon@example.net,62.4
+191,Reese-Thompson,Bakery,07111 Schmidt Meadow,"Rabat, Morocco",6006367350,samanthalucas@example.org,52.7
+192,Osborn Ltd,Restaurant,096 Jeffrey Pike Apt. 824,"Agadir, Morocco",776-516-8069,henry06@example.com,23.68
+193,Poole Inc,Bakery,0603 Gonzalez Dam,"Marrakech, Morocco",001-960-427-7498x317,stephen25@example.org,79.81
+194,Bentley PLC,Café,134 Jerry Lights,"Marrakech, Morocco",974.475.7278,thomaswilliam@example.com,22.34
+195,"Matthews, Ferguson and Nguyen",Restaurant,389 Walker Skyway,"Oujda, Morocco",707-925-1276x734,brian46@example.net,40.7
+196,Joseph Ltd,Restaurant,9217 Matthew Oval,"Oujda, Morocco",717-344-2363,christopherharris@example.net,64.04
+197,"Kidd, Alexander and Hamilton",Bistro,735 Peterson Loaf,"Fes, Morocco",+1-346-571-2397x63544,franklinrichard@example.net,29.76
+198,"Chapman, Schroeder and Watkins",Bistro,918 Gomez Valley,"Casablanca, Morocco",(927)400-7393,gjohnston@example.org,36.44
+199,Oconnor-Smith,Café,6537 Jason Center Apt. 822,"Rabat, Morocco",001-654-787-8618,nathanporter@example.com,15.24
+200,"Small, Torres and Le",Restaurant,732 Morrison Spring,"Tangier, Morocco",455-273-5905x763,leslie65@example.net,73.72
