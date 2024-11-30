@@ -1,12 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import lens from "../assets/morocco.jpg";
+import { useNavigate } from "react-router-dom";
 
 type FeatureCardProps = {
   title: string;
   description: string;
   icon: string;
 };
-
+interface DatabaseBooking {
+  booking_date: string;
+  listing_id: number;
+  user_id?: number;
+}
 const FeatureCard: React.FC<FeatureCardProps> = ({ title, description, icon }) => (
   <div className="bg-white p-6 rounded-xl shadow hover:shadow-md transition-shadow duration-300">
     <div className="text-4xl mb-4">{icon}</div>
@@ -26,6 +31,16 @@ type Property = {
   description: string;
 };
 
+type Booking = {
+  id: number;
+  userId?: number;
+  property: string;
+  checkIn: string;
+  checkOut: string;
+  totalCost: number;
+  status?: string;
+};
+
 type HomeProps = {
   trip: Trip;
   isAuthenticated: boolean;
@@ -33,28 +48,95 @@ type HomeProps = {
   firstName?: string;
   lastName?: string;
   email?: string;
-  age?: string;
+  age?: number;
+  onBooking?: (bookings: DatabaseBooking[]) => void;
+  checkIn?: string;
+  checkOut?: string;
 };
 
-const Home: React.FC<HomeProps> = ({ trip, isAuthenticated, userRole, firstName, lastName, email, age }) => {
-  const mockProperties: Property[] = [
-    {
-      name: "Luxury Beach Villa",
-      description: "A beautiful villa by the beach, perfect for vacations.",
-    },
-    {
-      name: "Mountain Lodge",
-      description: "A cozy lodge in the mountains with scenic views.",
-    },
-    {
-      name: "City Center Apartment",
-      description: "A modern apartment in the heart of the city.",
-    },
-  ];
+const Home: React.FC<HomeProps> = ({
+  trip,
+  isAuthenticated,
+  userRole,
+  firstName,
+  lastName,
+  email,
+  age,
+  onBooking,
+  checkIn,
+  checkOut
+}) => {
+  const [properties, setProperties] = useState<Property[]>([]);
+  const [bookings, setBookings] = useState<Booking[]>([]);
+  const navigate = useNavigate();
 
-  const [properties, setProperties] = useState<Property[]>(mockProperties);
+  useEffect(() => {
+    if (isAuthenticated && userRole === "OWNER") {
+      const fetchBookings = async () => {
+        try {
+          const response = await fetch("http://127.0.0.1:8080/bookings");
+          if (!response.ok) {
+            throw new Error("Failed to fetch bookings");
+          }
+          const data = await response.json();
+          setBookings(data);
+        } catch (error) {
+          console.error("Error fetching bookings:", error);
+        }
+      };
+      fetchBookings();
+    }
+  }, [isAuthenticated, userRole]);
 
-  // If not authenticated, show login prompt
+  const handleDeleteBooking = async (id: number) => {
+    try {
+      const response = await fetch(`http://127.0.0.1:8080/bookings/${id}`, {
+        method: "DELETE",
+      });
+      if (response.ok) {
+        setBookings((prevBookings) => prevBookings.filter((booking) => booking.id !== id));
+      }
+    } catch (error) {
+      console.error("Error deleting booking:", error);
+    }
+  };
+
+  const handleBookTrip = () => {
+    if (!onBooking || !trip.hotel) return;
+  
+    const bookings: DatabaseBooking[] = [];
+    const currentDate = new Date().toISOString();
+  
+    // Add hotel booking
+    if (trip.hotel) {
+      bookings.push({
+        booking_date: currentDate,
+        listing_id: parseInt(trip.hotel.name), // Assuming name contains listing ID
+        user_id: undefined // Will be set by backend
+      });
+    }
+  
+    // Add restaurant bookings
+    trip.restaurants.forEach(restaurant => {
+      bookings.push({
+        booking_date: currentDate,
+        listing_id: parseInt(restaurant.name), // Assuming name contains listing ID
+        user_id: undefined
+      });
+    });
+  
+    // Add activity bookings
+    trip.activities.forEach(activity => {
+      bookings.push({
+        booking_date: currentDate,
+        listing_id: parseInt(activity.name), // Assuming name contains listing ID
+        user_id: undefined
+      });
+    });
+  
+    onBooking(bookings);
+  };
+
   if (!isAuthenticated) {
     return (
       <div className="flex items-center justify-center min-h-screen relative overflow-hidden">
@@ -67,7 +149,6 @@ const Home: React.FC<HomeProps> = ({ trip, isAuthenticated, userRole, firstName,
     );
   }
 
-  // Show Owner Dashboard
   if (userRole === "OWNER") {
     return (
       <div className="max-w-3xl mx-auto p-5">
@@ -75,60 +156,36 @@ const Home: React.FC<HomeProps> = ({ trip, isAuthenticated, userRole, firstName,
         <p className="text-gray-600 mb-6">Manage your properties and bookings efficiently.</p>
 
         <div>
-          <h2 className="text-2xl font-bold mb-4">Manage Your Properties</h2>
-          <p className="text-gray-600 mb-6">
-            Add new properties, edit existing ones, manage bookings, and view analytics.
-          </p>
-          <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition">
-            Add New Property
-          </button>
-
-          {/* List of properties */}
+          <h2 className="text-2xl font-bold mb-4">Manage Your Bookings</h2>
           <div className="space-y-6 mt-6">
-            {properties.map((property, index) => (
-              <div key={index} className="bg-white p-6 rounded-md shadow-md">
-                <h3 className="text-xl font-semibold mb-2">{property.name}</h3>
-                <p className="text-gray-600">{property.description}</p>
+            {bookings.map((booking) => (
+              <div key={booking.id} className="bg-white p-6 rounded-md shadow-md">
+                <h3 className="text-xl font-semibold mb-2">Booking at {booking.property}</h3>
+                <p className="text-gray-600">Check-in: {booking.checkIn}</p>
+                <p className="text-gray-600">Check-out: {booking.checkOut}</p>
+                <p className="text-gray-600">Total Cost: ${booking.totalCost}</p>
                 <div className="flex space-x-4 mt-4">
-                  <button className="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 transition">
+                  <button
+                    className="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 transition"
+                    onClick={() => navigate(`/edit-booking/${booking.id}`)}
+                  >
                     Edit
                   </button>
-                  <button className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition">
+                  <button
+                    className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition"
+                    onClick={() => handleDeleteBooking(booking.id)}
+                  >
                     Delete
-                  </button>
-                  <button className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600 transition">
-                    View Bookings
                   </button>
                 </div>
               </div>
             ))}
-          </div>
-
-          {/* Analytics and Bookings */}
-          <div className="bg-gray-100 p-6 rounded-md mt-6">
-            <h3 className="text-xl font-semibold mb-4">Bookings Overview</h3>
-            <p className="text-gray-600 mb-2">You have 5 new bookings this week.</p>
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition">
-              View All Bookings
-            </button>
-          </div>
-
-          <div className="bg-gray-100 p-6 rounded-md mt-6">
-            <h3 className="text-xl font-semibold mb-4">Property Analytics</h3>
-            <p className="text-gray-600 mb-2">
-              Your properties had a 90% occupancy rate last month.
-            </p>
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition">
-              View Analytics
-            </button>
           </div>
         </div>
       </div>
     );
   }
 
-  // Show Traveler View
-  // If no trip is selected, show the feature cards
   if (!trip.hotel && trip.restaurants.length === 0 && trip.activities.length === 0) {
     return (
       <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
@@ -163,19 +220,19 @@ const Home: React.FC<HomeProps> = ({ trip, isAuthenticated, userRole, firstName,
     );
   }
 
-  // Show trip details for travelers
   return (
     <div className="max-w-3xl mx-auto p-5">
       <div>
         <h2 className="text-2xl font-bold mb-4">Your Trip Details, {firstName}</h2>
         <p className="text-gray-600">Plan your dream trip effortlessly.</p>
-        {/* Render trip details */}
+        
         {trip.hotel && (
           <div className="mt-4">
             <h3 className="text-xl font-semibold">Hotel</h3>
             <p>{trip.hotel.name} - ${trip.hotel.total_cost}</p>
           </div>
         )}
+        
         {trip.restaurants.length > 0 && (
           <div className="mt-4">
             <h3 className="text-xl font-semibold">Restaurants</h3>
@@ -188,6 +245,7 @@ const Home: React.FC<HomeProps> = ({ trip, isAuthenticated, userRole, firstName,
             </ul>
           </div>
         )}
+        
         {trip.activities.length > 0 && (
           <div className="mt-4">
             <h3 className="text-xl font-semibold">Activities</h3>
@@ -199,6 +257,15 @@ const Home: React.FC<HomeProps> = ({ trip, isAuthenticated, userRole, firstName,
               ))}
             </ul>
           </div>
+        )}
+
+        {trip.hotel && (
+          <button
+            onClick={handleBookTrip}
+            className="mt-6 bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded transition duration-200"
+          >
+            Book This Trip
+          </button>
         )}
       </div>
     </div>

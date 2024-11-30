@@ -34,7 +34,7 @@ const Navbar: React.FC<NavbarProps> = ({ setIsAuthenticated, isAuthenticated, us
       ]
     : [
         { to: "/discover", text: "Discover" },
-        { to: "/trips", text: "Trips" },
+        // { to: "/trips", text: "Trips" },
       ];
 
   return (

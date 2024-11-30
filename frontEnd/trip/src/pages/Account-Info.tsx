@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "../components/Navbar"; // Import Navbar here
+import Navbar from "../components/Navbar";
 import { useNavigate } from "react-router-dom";
 
 const AccountInfo = () => {
@@ -8,15 +8,12 @@ const AccountInfo = () => {
     lastName: "",
     age: "",
     email: "",
-    preference1: "",
-    preference2: "",
-    preference3: "",
   });
 
   useEffect(() => {
     const fetchUserInfo = async () => {
       try {
-        const response = await fetch("http://127.0.0.1:8000/user-info", {
+        const response = await fetch("http://127.0.0.1:8080/user/info", {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("authToken")}`,
           },
@@ -62,7 +59,7 @@ const AccountInfo = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
-      <Navbar setIsAuthenticated={() => {}} isAuthenticated={true} /> {/* Pass actual props for Navbar */}
+      <Navbar setIsAuthenticated={() => {}} isAuthenticated={true} />
 
       <div className="container mx-auto px-4 py-16 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 mb-12">
@@ -125,48 +122,6 @@ const AccountInfo = () => {
                   value={userInfo.email}
                   onChange={handleChange}
                   placeholder="Enter your email"
-                  className="w-full p-4 mt-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-              </div>
-            </div>
-
-            <div className="space-y-6">
-              <div>
-                <label htmlFor="preference1" className="block text-lg font-medium text-gray-700">
-                  Preference 1
-                </label>
-                <input
-                  type="text"
-                  name="preference1"
-                  value={userInfo.preference1}
-                  onChange={handleChange}
-                  placeholder="Enter your first preference"
-                  className="w-full p-4 mt-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-              </div>
-              <div>
-                <label htmlFor="preference2" className="block text-lg font-medium text-gray-700">
-                  Preference 2
-                </label>
-                <input
-                  type="text"
-                  name="preference2"
-                  value={userInfo.preference2}
-                  onChange={handleChange}
-                  placeholder="Enter your second preference"
-                  className="w-full p-4 mt-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                />
-              </div>
-              <div>
-                <label htmlFor="preference3" className="block text-lg font-medium text-gray-700">
-                  Preference 3
-                </label>
-                <input
-                  type="text"
-                  name="preference3"
-                  value={userInfo.preference3}
-                  onChange={handleChange}
-                  placeholder="Enter your third preference"
                   className="w-full p-4 mt-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>

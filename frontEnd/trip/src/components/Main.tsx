@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom"; // Import useNavigate hook
+import { useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
 import Menubar from "./Menubar";
 import Home from "./Home";
@@ -9,6 +9,21 @@ interface Trip {
   hotel_total_cost: number | null;
   restaurants: Array<{ name: string; price: number }>;
   activities: Array<{ name: string; price: number }>;
+}
+// In both Main.tsx and Home.tsx
+interface DatabaseBooking {
+  booking_date: string;
+  listing_id: number;
+  user_id?: number;
+}
+interface Booking {
+  id: number;
+  userId?: number;
+  property: string;
+  checkIn: string;
+  checkOut: string;
+  totalCost: number;
+  status?: string;
 }
 
 const Main = () => {
@@ -31,9 +46,8 @@ const Main = () => {
   const [age, setAge] = useState<number>(0);
   const [loading, setLoading] = useState(false);
 
-  const navigate = useNavigate(); // Initialize useNavigate hook
+  const navigate = useNavigate();
 
-  // Effect to fetch user information based on the auth token
   useEffect(() => {
     const token = localStorage.getItem("authToken");
     const tokenInfo = localStorage.getItem("jwtToken");
@@ -67,14 +81,12 @@ const Main = () => {
     }
   }, []);
 
-  // Redirect the owner to the reservations page
   useEffect(() => {
     if (isAuthenticated && userRole === "OWNER") {
-      navigate("/reservations"); // Redirect to reservations page
+      navigate("/reservations");
     }
   }, [isAuthenticated, userRole, navigate]);
 
-  // Handle search and fetch recommendations
   const handleSearch = async () => {
     if (!location || !checkIn || !checkOut || !budget) {
       alert("Please fill in all search parameters");
@@ -117,6 +129,35 @@ const Main = () => {
     }
   };
 
+  const handleBooking = async (bookings: DatabaseBooking[]) => {
+    const token = localStorage.getItem("authToken");
+    if (!token) {
+      alert("Please login to book a trip");
+      return;
+    }
+  
+    try {
+      const response = await fetch("http://127.0.0.1:8080/bookings", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify(bookings),
+      });
+  
+      if (!response.ok) {
+        throw new Error("Failed to create bookings");
+      }
+  
+      alert("Trip booked successfully!");
+      navigate("/reservations");
+    } catch (error) {
+      console.error("Error creating bookings:", error);
+      alert("Failed to book trip");
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar
@@ -145,6 +186,13 @@ const Main = () => {
               trip={trip}
               isAuthenticated={isAuthenticated}
               userRole={userRole}
+              firstName={firstName}
+              lastName={lastName}
+              email={email}
+              age={age}
+              onBooking={handleBooking}
+              checkIn={checkIn}
+              checkOut={checkOut}
             />
           </div>
         ) : (
